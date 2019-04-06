@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,11 +21,56 @@ namespace Chris_Parker_Assignment5
         public Form1()
         {
             InitializeComponent();
+            ReadPuzzles();
         }
 
-        private void ReadPuzzles ()
+        //Still a work in progress 
+        public void ReadPuzzles ()
         {
+            using (StreamReader inFile = new StreamReader("C:/Users/Chrips/source/repos/CSCI-473-504-Assign5/Chris_Parker_Assignment5/Chris_Parker_Assignment5/a5/directory.txt"))
+            {
+                string fileName = inFile.ReadLine(); //Read the first puzzle file
+                
+                while (fileName != null)
+                {
+                    using (StreamReader inFile2 = new StreamReader(fileName)) //Now we can open the puzzle file
+                    {
+                        string input = inFile2.ReadLine(); //Read the first line of the puzzle
 
+                        while (input != null)
+                        {
+                            int i = 0;
+                            int j = 0;
+
+                            
+                            if (input.Length == 3) //Easy puzzle
+                            {
+                                int[,] tempArray = new int[5, 5];
+
+                                //Create Initial Puzzle 2D Array
+                                for (i = 0; i < 5; i++)
+                                {
+                                    for (j = 0; j < 5; j++)
+                                    {
+                                        tempArray[i, j] = Convert.ToInt32(input[j]);
+                                    }
+                                }
+
+
+                                   
+                            }
+                            else if (input.Length == 5)//Medium puzzle
+                            {
+
+                            }
+                            else if (input.Length == 7)//Hard puzzle
+                            {
+
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -117,7 +163,7 @@ namespace Chris_Parker_Assignment5
             this.invalidAttempt = invalidAttempt;
         }
 
-        /*****Needs work still*****
+        /*****Needs work still*****Need to determine what order to sort the puzzle objects...
         //Our CompareTo method which allows us to sort our Puzzle objects
         public int CompareTo(Object puzzle)
         {
