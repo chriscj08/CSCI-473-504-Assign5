@@ -22,9 +22,9 @@ namespace Chris_Parker_Assignment5
         {
             InitializeComponent();
             puzzles = new List<Puzzle>();
-            ReadPuzzles();
+            //ReadPuzzles();
         }
-
+       
         //Still a work in progress 
         public void ReadPuzzles ()
         {
@@ -293,38 +293,8 @@ namespace Chris_Parker_Assignment5
                 }             
             }
         }//End of ReadPuzzles
-
+        
         private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox8_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -334,6 +304,36 @@ namespace Chris_Parker_Assignment5
             for (int i = 0; i < 9; i++)
             {
                 MessageBox.Show(puzzles[i].ToString());
+            }
+        }
+
+        private void timerStartStopClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fieldKeyPress(object sender, KeyPressEventArgs e)
+        {
+            TextBox omega = sender as TextBox;
+            omega.MaxLength = 1;
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void fieldTextChanged(object sender, EventArgs e)
+        {
+            TextBox omega = sender as TextBox;
+
+            if (System.Text.RegularExpressions.Regex.IsMatch(omega.Text, "  ^ [1-9]"))
+            {
+                omega.Text = "";
+            }
+            
+            if (omega.Text == "0")
+            {
+                omega.Text = "";
             }
         }
     } //End of Form1
