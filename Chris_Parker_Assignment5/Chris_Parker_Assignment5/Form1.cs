@@ -35,12 +35,13 @@ namespace Chris_Parker_Assignment5
             BuildEasyMode();
             BuildMedMode();
             BuildHardMode();
+            CreatePlayingField();
         }
        
         //Still a work in progress 
         public void ReadPuzzles ()
         {
-            using (StreamReader inFile = new StreamReader("a5/directory.txt"))
+            using (StreamReader inFile = new StreamReader("C:/Users/Chrips/Desktop/Test/directory.txt"))
             {
                 string fileName = inFile.ReadLine(); //Read the first puzzle file
                 
@@ -342,9 +343,15 @@ namespace Chris_Parker_Assignment5
         }
         //This method looks at the puzzle being played and allocates 
         //textboxes with the appropriate values
-        public void CreatePlayingField(Puzzle thePuzzle)
+        public void CreatePlayingField()
         {
-
+            for (int i = 0; i < 9; i++)
+            {
+                for(int j = 0; j < 9; j++)
+                {
+                    hardMode[i, j].Text = puzzles[7][i, j].ToString();
+                }
+            }
         }
         
         private void Form1_Load(object sender, EventArgs e)
@@ -410,6 +417,18 @@ namespace Chris_Parker_Assignment5
             {
                 omega.Text = "";
             }
+            
+            
+            /*for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    MessageBox.Show(easyMode[i, j].ToString() + " " + omega.ToString());
+                    if (easyMode[i, j].ToString() == omega.ToString())
+                        puzzles[0][i, j] = Convert.ToInt32(omega.Text);
+                }
+            }
+            */
         }
         
     } //End of Form1
@@ -465,6 +484,12 @@ namespace Chris_Parker_Assignment5
             this.bestTime = 0;
             this.avgTime = 0;
             this.invalidAttempt = false;
+        }
+
+        public int this[int index, int index2]
+        {
+            get { return puzzleInProgress[index, index2]; }
+            set { puzzleInProgress[index, index2] = value; }
         }
 
         public override string ToString()
