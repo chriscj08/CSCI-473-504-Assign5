@@ -21,7 +21,7 @@ namespace Chris_Parker_Assignment5
         private static TextBox[,] easyMode;
         private static TextBox[,] medMode;
         private static TextBox[,] hardMode;
-        private int timerValue = 0;
+        private int timerValue = 0;        
 
         public Form1()
         {
@@ -31,12 +31,16 @@ namespace Chris_Parker_Assignment5
             medMode = new TextBox[7, 7];
             hardMode = new TextBox[9, 9];
             puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));
-            ReadPuzzles();
+            //ReadPuzzles();
             BuildEasyMode();
             BuildMedMode();
             BuildHardMode();
         }
-       
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
         //Still a work in progress 
         public void ReadPuzzles ()
         {
@@ -345,12 +349,8 @@ namespace Chris_Parker_Assignment5
         public void CreatePlayingField(Puzzle thePuzzle)
         {
 
-        }
-        
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+        }   
+       
 
         private void Generate_Puzzle(object sender, EventArgs e)
         {
@@ -359,9 +359,41 @@ namespace Chris_Parker_Assignment5
                 MessageBox.Show(puzzles[i].ToString());
             }*/
 
-            string diffSetting;
-            diffSetting = puzzleDiff.SelectedText;
-            MsgBox.Text = diffSetting;
+            string diffSetting = puzzleDiff.SelectedItem.ToString();
+
+            if(diffSetting=="Easy")
+            {
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.BackColor = Color.Black;
+                }
+                foreach (TextBox singleItem in easyMode)
+                {
+                    singleItem.BackColor = Color.White;
+                }
+            }
+            else if(diffSetting=="Medium")
+            {
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.BackColor = Color.Black;
+                }
+                foreach (TextBox singleItem in medMode)
+                {
+                    singleItem.BackColor = Color.White;
+                }
+            }
+            else if(diffSetting=="Hard")
+            {
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.BackColor = Color.Black;
+                }
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.BackColor = Color.White;
+                }
+            }           
 
         }
 

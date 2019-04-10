@@ -147,7 +147,7 @@
             this.a1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a1.Location = new System.Drawing.Point(26, 149);
+            this.a1.Location = new System.Drawing.Point(13, 168);
             this.a1.Margin = new System.Windows.Forms.Padding(2);
             this.a1.Name = "a1";
             this.a1.Size = new System.Drawing.Size(46, 46);
@@ -162,7 +162,7 @@
             this.a4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a4.Location = new System.Drawing.Point(184, 149);
+            this.a4.Location = new System.Drawing.Point(171, 168);
             this.a4.Margin = new System.Windows.Forms.Padding(2);
             this.a4.Name = "a4";
             this.a4.Size = new System.Drawing.Size(46, 46);
@@ -177,7 +177,7 @@
             this.a5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a5.Location = new System.Drawing.Point(237, 149);
+            this.a5.Location = new System.Drawing.Point(224, 168);
             this.a5.Margin = new System.Windows.Forms.Padding(2);
             this.a5.Name = "a5";
             this.a5.Size = new System.Drawing.Size(46, 46);
@@ -192,7 +192,7 @@
             this.a6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a6.Location = new System.Drawing.Point(289, 149);
+            this.a6.Location = new System.Drawing.Point(276, 168);
             this.a6.Margin = new System.Windows.Forms.Padding(2);
             this.a6.Name = "a6";
             this.a6.Size = new System.Drawing.Size(46, 46);
@@ -207,7 +207,7 @@
             this.a7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a7.Location = new System.Drawing.Point(341, 149);
+            this.a7.Location = new System.Drawing.Point(328, 168);
             this.a7.Margin = new System.Windows.Forms.Padding(2);
             this.a7.Name = "a7";
             this.a7.Size = new System.Drawing.Size(46, 46);
@@ -222,7 +222,7 @@
             this.a3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a3.Location = new System.Drawing.Point(131, 149);
+            this.a3.Location = new System.Drawing.Point(118, 168);
             this.a3.Margin = new System.Windows.Forms.Padding(2);
             this.a3.Name = "a3";
             this.a3.Size = new System.Drawing.Size(46, 46);
@@ -237,7 +237,7 @@
             this.a2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a2.Location = new System.Drawing.Point(79, 149);
+            this.a2.Location = new System.Drawing.Point(66, 168);
             this.a2.Margin = new System.Windows.Forms.Padding(2);
             this.a2.Name = "a2";
             this.a2.Size = new System.Drawing.Size(46, 46);
@@ -252,7 +252,7 @@
             this.d2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d2.Location = new System.Drawing.Point(78, 299);
+            this.d2.Location = new System.Drawing.Point(65, 318);
             this.d2.Margin = new System.Windows.Forms.Padding(2);
             this.d2.Name = "d2";
             this.d2.Size = new System.Drawing.Size(46, 46);
@@ -267,7 +267,7 @@
             this.d3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d3.Location = new System.Drawing.Point(130, 299);
+            this.d3.Location = new System.Drawing.Point(117, 318);
             this.d3.Margin = new System.Windows.Forms.Padding(2);
             this.d3.Name = "d3";
             this.d3.Size = new System.Drawing.Size(46, 46);
@@ -282,7 +282,7 @@
             this.d7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d7.Location = new System.Drawing.Point(340, 299);
+            this.d7.Location = new System.Drawing.Point(327, 318);
             this.d7.Margin = new System.Windows.Forms.Padding(2);
             this.d7.Name = "d7";
             this.d7.Size = new System.Drawing.Size(46, 46);
@@ -297,7 +297,7 @@
             this.d6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d6.Location = new System.Drawing.Point(288, 299);
+            this.d6.Location = new System.Drawing.Point(275, 318);
             this.d6.Margin = new System.Windows.Forms.Padding(2);
             this.d6.Name = "d6";
             this.d6.Size = new System.Drawing.Size(46, 46);
@@ -312,7 +312,7 @@
             this.d5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d5.Location = new System.Drawing.Point(236, 299);
+            this.d5.Location = new System.Drawing.Point(223, 318);
             this.d5.Margin = new System.Windows.Forms.Padding(2);
             this.d5.Name = "d5";
             this.d5.Size = new System.Drawing.Size(46, 46);
@@ -327,7 +327,7 @@
             this.d4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d4.Location = new System.Drawing.Point(183, 299);
+            this.d4.Location = new System.Drawing.Point(170, 318);
             this.d4.Margin = new System.Windows.Forms.Padding(2);
             this.d4.Name = "d4";
             this.d4.Size = new System.Drawing.Size(46, 46);
@@ -342,7 +342,7 @@
             this.d1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d1.Location = new System.Drawing.Point(26, 299);
+            this.d1.Location = new System.Drawing.Point(13, 318);
             this.d1.Margin = new System.Windows.Forms.Padding(2);
             this.d1.Name = "d1";
             this.d1.Size = new System.Drawing.Size(46, 46);
@@ -357,7 +357,7 @@
             this.c2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c2.Location = new System.Drawing.Point(78, 249);
+            this.c2.Location = new System.Drawing.Point(65, 268);
             this.c2.Margin = new System.Windows.Forms.Padding(2);
             this.c2.Name = "c2";
             this.c2.Size = new System.Drawing.Size(46, 46);
@@ -372,7 +372,7 @@
             this.c3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c3.Location = new System.Drawing.Point(130, 249);
+            this.c3.Location = new System.Drawing.Point(117, 268);
             this.c3.Margin = new System.Windows.Forms.Padding(2);
             this.c3.Name = "c3";
             this.c3.Size = new System.Drawing.Size(46, 46);
@@ -387,7 +387,7 @@
             this.c7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c7.Location = new System.Drawing.Point(340, 249);
+            this.c7.Location = new System.Drawing.Point(327, 268);
             this.c7.Margin = new System.Windows.Forms.Padding(2);
             this.c7.Name = "c7";
             this.c7.Size = new System.Drawing.Size(46, 46);
@@ -402,7 +402,7 @@
             this.c6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c6.Location = new System.Drawing.Point(288, 249);
+            this.c6.Location = new System.Drawing.Point(275, 268);
             this.c6.Margin = new System.Windows.Forms.Padding(2);
             this.c6.Name = "c6";
             this.c6.Size = new System.Drawing.Size(46, 46);
@@ -417,7 +417,7 @@
             this.c5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c5.Location = new System.Drawing.Point(236, 249);
+            this.c5.Location = new System.Drawing.Point(223, 268);
             this.c5.Margin = new System.Windows.Forms.Padding(2);
             this.c5.Name = "c5";
             this.c5.Size = new System.Drawing.Size(46, 46);
@@ -432,7 +432,7 @@
             this.c4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c4.Location = new System.Drawing.Point(183, 249);
+            this.c4.Location = new System.Drawing.Point(170, 268);
             this.c4.Margin = new System.Windows.Forms.Padding(2);
             this.c4.Name = "c4";
             this.c4.Size = new System.Drawing.Size(46, 46);
@@ -447,7 +447,7 @@
             this.c1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c1.Location = new System.Drawing.Point(26, 249);
+            this.c1.Location = new System.Drawing.Point(13, 268);
             this.c1.Margin = new System.Windows.Forms.Padding(2);
             this.c1.Name = "c1";
             this.c1.Size = new System.Drawing.Size(46, 46);
@@ -462,7 +462,7 @@
             this.b2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b2.Location = new System.Drawing.Point(79, 199);
+            this.b2.Location = new System.Drawing.Point(66, 218);
             this.b2.Margin = new System.Windows.Forms.Padding(2);
             this.b2.Name = "b2";
             this.b2.Size = new System.Drawing.Size(46, 46);
@@ -477,7 +477,7 @@
             this.b3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b3.Location = new System.Drawing.Point(131, 199);
+            this.b3.Location = new System.Drawing.Point(118, 218);
             this.b3.Margin = new System.Windows.Forms.Padding(2);
             this.b3.Name = "b3";
             this.b3.Size = new System.Drawing.Size(46, 46);
@@ -492,7 +492,7 @@
             this.b7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b7.Location = new System.Drawing.Point(341, 199);
+            this.b7.Location = new System.Drawing.Point(328, 218);
             this.b7.Margin = new System.Windows.Forms.Padding(2);
             this.b7.Name = "b7";
             this.b7.Size = new System.Drawing.Size(46, 46);
@@ -507,7 +507,7 @@
             this.b6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b6.Location = new System.Drawing.Point(289, 199);
+            this.b6.Location = new System.Drawing.Point(276, 218);
             this.b6.Margin = new System.Windows.Forms.Padding(2);
             this.b6.Name = "b6";
             this.b6.Size = new System.Drawing.Size(46, 46);
@@ -522,7 +522,7 @@
             this.b5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b5.Location = new System.Drawing.Point(237, 199);
+            this.b5.Location = new System.Drawing.Point(224, 218);
             this.b5.Margin = new System.Windows.Forms.Padding(2);
             this.b5.Name = "b5";
             this.b5.Size = new System.Drawing.Size(46, 46);
@@ -537,7 +537,7 @@
             this.b4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b4.Location = new System.Drawing.Point(184, 199);
+            this.b4.Location = new System.Drawing.Point(171, 218);
             this.b4.Margin = new System.Windows.Forms.Padding(2);
             this.b4.Name = "b4";
             this.b4.Size = new System.Drawing.Size(46, 46);
@@ -552,7 +552,7 @@
             this.b1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b1.Location = new System.Drawing.Point(26, 199);
+            this.b1.Location = new System.Drawing.Point(13, 218);
             this.b1.Margin = new System.Windows.Forms.Padding(2);
             this.b1.Name = "b1";
             this.b1.Size = new System.Drawing.Size(46, 46);
@@ -567,7 +567,7 @@
             this.e2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e2.Location = new System.Drawing.Point(78, 349);
+            this.e2.Location = new System.Drawing.Point(65, 368);
             this.e2.Margin = new System.Windows.Forms.Padding(2);
             this.e2.Name = "e2";
             this.e2.Size = new System.Drawing.Size(46, 46);
@@ -582,7 +582,7 @@
             this.e3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e3.Location = new System.Drawing.Point(130, 349);
+            this.e3.Location = new System.Drawing.Point(117, 368);
             this.e3.Margin = new System.Windows.Forms.Padding(2);
             this.e3.Name = "e3";
             this.e3.Size = new System.Drawing.Size(46, 46);
@@ -597,7 +597,7 @@
             this.e7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e7.Location = new System.Drawing.Point(340, 349);
+            this.e7.Location = new System.Drawing.Point(327, 368);
             this.e7.Margin = new System.Windows.Forms.Padding(2);
             this.e7.Name = "e7";
             this.e7.Size = new System.Drawing.Size(46, 46);
@@ -612,7 +612,7 @@
             this.e6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e6.Location = new System.Drawing.Point(288, 349);
+            this.e6.Location = new System.Drawing.Point(275, 368);
             this.e6.Margin = new System.Windows.Forms.Padding(2);
             this.e6.Name = "e6";
             this.e6.Size = new System.Drawing.Size(46, 46);
@@ -627,7 +627,7 @@
             this.e5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e5.Location = new System.Drawing.Point(236, 349);
+            this.e5.Location = new System.Drawing.Point(223, 368);
             this.e5.Margin = new System.Windows.Forms.Padding(2);
             this.e5.Name = "e5";
             this.e5.Size = new System.Drawing.Size(46, 46);
@@ -642,7 +642,7 @@
             this.e4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e4.Location = new System.Drawing.Point(183, 349);
+            this.e4.Location = new System.Drawing.Point(170, 368);
             this.e4.Margin = new System.Windows.Forms.Padding(2);
             this.e4.Name = "e4";
             this.e4.Size = new System.Drawing.Size(46, 46);
@@ -657,7 +657,7 @@
             this.e1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e1.Location = new System.Drawing.Point(26, 349);
+            this.e1.Location = new System.Drawing.Point(13, 368);
             this.e1.Margin = new System.Windows.Forms.Padding(2);
             this.e1.Name = "e1";
             this.e1.Size = new System.Drawing.Size(46, 46);
@@ -672,7 +672,7 @@
             this.f2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f2.Location = new System.Drawing.Point(78, 399);
+            this.f2.Location = new System.Drawing.Point(65, 418);
             this.f2.Margin = new System.Windows.Forms.Padding(2);
             this.f2.Name = "f2";
             this.f2.Size = new System.Drawing.Size(46, 46);
@@ -687,7 +687,7 @@
             this.f3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f3.Location = new System.Drawing.Point(130, 399);
+            this.f3.Location = new System.Drawing.Point(117, 418);
             this.f3.Margin = new System.Windows.Forms.Padding(2);
             this.f3.Name = "f3";
             this.f3.Size = new System.Drawing.Size(46, 46);
@@ -702,7 +702,7 @@
             this.f7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f7.Location = new System.Drawing.Point(340, 399);
+            this.f7.Location = new System.Drawing.Point(327, 418);
             this.f7.Margin = new System.Windows.Forms.Padding(2);
             this.f7.Name = "f7";
             this.f7.Size = new System.Drawing.Size(46, 46);
@@ -717,7 +717,7 @@
             this.f6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f6.Location = new System.Drawing.Point(288, 399);
+            this.f6.Location = new System.Drawing.Point(275, 418);
             this.f6.Margin = new System.Windows.Forms.Padding(2);
             this.f6.Name = "f6";
             this.f6.Size = new System.Drawing.Size(46, 46);
@@ -732,7 +732,7 @@
             this.f5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f5.Location = new System.Drawing.Point(236, 399);
+            this.f5.Location = new System.Drawing.Point(223, 418);
             this.f5.Margin = new System.Windows.Forms.Padding(2);
             this.f5.Name = "f5";
             this.f5.Size = new System.Drawing.Size(46, 46);
@@ -747,7 +747,7 @@
             this.f4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f4.Location = new System.Drawing.Point(183, 399);
+            this.f4.Location = new System.Drawing.Point(170, 418);
             this.f4.Margin = new System.Windows.Forms.Padding(2);
             this.f4.Name = "f4";
             this.f4.Size = new System.Drawing.Size(46, 46);
@@ -762,7 +762,7 @@
             this.f1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f1.Location = new System.Drawing.Point(26, 399);
+            this.f1.Location = new System.Drawing.Point(13, 418);
             this.f1.Margin = new System.Windows.Forms.Padding(2);
             this.f1.Name = "f1";
             this.f1.Size = new System.Drawing.Size(46, 46);
@@ -777,7 +777,7 @@
             this.g2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g2.Location = new System.Drawing.Point(78, 449);
+            this.g2.Location = new System.Drawing.Point(65, 468);
             this.g2.Margin = new System.Windows.Forms.Padding(2);
             this.g2.Name = "g2";
             this.g2.Size = new System.Drawing.Size(46, 46);
@@ -792,7 +792,7 @@
             this.g3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g3.Location = new System.Drawing.Point(130, 449);
+            this.g3.Location = new System.Drawing.Point(117, 468);
             this.g3.Margin = new System.Windows.Forms.Padding(2);
             this.g3.Name = "g3";
             this.g3.Size = new System.Drawing.Size(46, 46);
@@ -807,7 +807,7 @@
             this.g7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g7.Location = new System.Drawing.Point(340, 449);
+            this.g7.Location = new System.Drawing.Point(327, 468);
             this.g7.Margin = new System.Windows.Forms.Padding(2);
             this.g7.Name = "g7";
             this.g7.Size = new System.Drawing.Size(46, 46);
@@ -822,7 +822,7 @@
             this.g6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g6.Location = new System.Drawing.Point(288, 449);
+            this.g6.Location = new System.Drawing.Point(275, 468);
             this.g6.Margin = new System.Windows.Forms.Padding(2);
             this.g6.Name = "g6";
             this.g6.Size = new System.Drawing.Size(46, 46);
@@ -837,7 +837,7 @@
             this.g5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g5.Location = new System.Drawing.Point(236, 449);
+            this.g5.Location = new System.Drawing.Point(223, 468);
             this.g5.Margin = new System.Windows.Forms.Padding(2);
             this.g5.Name = "g5";
             this.g5.Size = new System.Drawing.Size(46, 46);
@@ -852,7 +852,7 @@
             this.g4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g4.Location = new System.Drawing.Point(183, 449);
+            this.g4.Location = new System.Drawing.Point(170, 468);
             this.g4.Margin = new System.Windows.Forms.Padding(2);
             this.g4.Name = "g4";
             this.g4.Size = new System.Drawing.Size(46, 46);
@@ -867,7 +867,7 @@
             this.g1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g1.Location = new System.Drawing.Point(26, 449);
+            this.g1.Location = new System.Drawing.Point(13, 468);
             this.g1.Margin = new System.Windows.Forms.Padding(2);
             this.g1.Name = "g1";
             this.g1.Size = new System.Drawing.Size(46, 46);
@@ -879,7 +879,7 @@
             // MsgBox
             // 
             this.MsgBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MsgBox.Location = new System.Drawing.Point(508, 429);
+            this.MsgBox.Location = new System.Drawing.Point(508, 434);
             this.MsgBox.Margin = new System.Windows.Forms.Padding(2);
             this.MsgBox.Name = "MsgBox";
             this.MsgBox.Size = new System.Drawing.Size(296, 180);
@@ -891,7 +891,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(197, 74);
+            this.label2.Location = new System.Drawing.Point(178, 126);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(124, 26);
@@ -1044,7 +1044,7 @@
             this.g9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g9.Location = new System.Drawing.Point(445, 449);
+            this.g9.Location = new System.Drawing.Point(432, 468);
             this.g9.Margin = new System.Windows.Forms.Padding(2);
             this.g9.Name = "g9";
             this.g9.Size = new System.Drawing.Size(46, 46);
@@ -1059,7 +1059,7 @@
             this.g8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g8.Location = new System.Drawing.Point(393, 449);
+            this.g8.Location = new System.Drawing.Point(380, 468);
             this.g8.Margin = new System.Windows.Forms.Padding(2);
             this.g8.Name = "g8";
             this.g8.Size = new System.Drawing.Size(46, 46);
@@ -1074,7 +1074,7 @@
             this.f9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f9.Location = new System.Drawing.Point(445, 399);
+            this.f9.Location = new System.Drawing.Point(432, 418);
             this.f9.Margin = new System.Windows.Forms.Padding(2);
             this.f9.Name = "f9";
             this.f9.Size = new System.Drawing.Size(46, 46);
@@ -1089,7 +1089,7 @@
             this.f8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f8.Location = new System.Drawing.Point(393, 399);
+            this.f8.Location = new System.Drawing.Point(380, 418);
             this.f8.Margin = new System.Windows.Forms.Padding(2);
             this.f8.Name = "f8";
             this.f8.Size = new System.Drawing.Size(46, 46);
@@ -1104,7 +1104,7 @@
             this.e9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e9.Location = new System.Drawing.Point(445, 349);
+            this.e9.Location = new System.Drawing.Point(432, 368);
             this.e9.Margin = new System.Windows.Forms.Padding(2);
             this.e9.Name = "e9";
             this.e9.Size = new System.Drawing.Size(46, 46);
@@ -1119,7 +1119,7 @@
             this.e8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e8.Location = new System.Drawing.Point(393, 349);
+            this.e8.Location = new System.Drawing.Point(380, 368);
             this.e8.Margin = new System.Windows.Forms.Padding(2);
             this.e8.Name = "e8";
             this.e8.Size = new System.Drawing.Size(46, 46);
@@ -1134,7 +1134,7 @@
             this.b9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b9.Location = new System.Drawing.Point(446, 199);
+            this.b9.Location = new System.Drawing.Point(433, 218);
             this.b9.Margin = new System.Windows.Forms.Padding(2);
             this.b9.Name = "b9";
             this.b9.Size = new System.Drawing.Size(46, 46);
@@ -1149,7 +1149,7 @@
             this.b8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b8.Location = new System.Drawing.Point(394, 199);
+            this.b8.Location = new System.Drawing.Point(381, 218);
             this.b8.Margin = new System.Windows.Forms.Padding(2);
             this.b8.Name = "b8";
             this.b8.Size = new System.Drawing.Size(46, 46);
@@ -1164,7 +1164,7 @@
             this.c9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c9.Location = new System.Drawing.Point(445, 249);
+            this.c9.Location = new System.Drawing.Point(432, 268);
             this.c9.Margin = new System.Windows.Forms.Padding(2);
             this.c9.Name = "c9";
             this.c9.Size = new System.Drawing.Size(46, 46);
@@ -1179,7 +1179,7 @@
             this.c8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c8.Location = new System.Drawing.Point(393, 249);
+            this.c8.Location = new System.Drawing.Point(380, 268);
             this.c8.Margin = new System.Windows.Forms.Padding(2);
             this.c8.Name = "c8";
             this.c8.Size = new System.Drawing.Size(46, 46);
@@ -1194,7 +1194,7 @@
             this.d9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d9.Location = new System.Drawing.Point(445, 299);
+            this.d9.Location = new System.Drawing.Point(432, 318);
             this.d9.Margin = new System.Windows.Forms.Padding(2);
             this.d9.Name = "d9";
             this.d9.Size = new System.Drawing.Size(46, 46);
@@ -1209,7 +1209,7 @@
             this.d8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d8.Location = new System.Drawing.Point(393, 299);
+            this.d8.Location = new System.Drawing.Point(380, 318);
             this.d8.Margin = new System.Windows.Forms.Padding(2);
             this.d8.Name = "d8";
             this.d8.Size = new System.Drawing.Size(46, 46);
@@ -1224,7 +1224,7 @@
             this.a9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a9.Location = new System.Drawing.Point(446, 149);
+            this.a9.Location = new System.Drawing.Point(433, 168);
             this.a9.Margin = new System.Windows.Forms.Padding(2);
             this.a9.Name = "a9";
             this.a9.Size = new System.Drawing.Size(46, 46);
@@ -1239,7 +1239,7 @@
             this.a8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a8.Location = new System.Drawing.Point(394, 149);
+            this.a8.Location = new System.Drawing.Point(381, 168);
             this.a8.Margin = new System.Windows.Forms.Padding(2);
             this.a8.Name = "a8";
             this.a8.Size = new System.Drawing.Size(46, 46);
@@ -1254,7 +1254,7 @@
             this.i9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i9.Location = new System.Drawing.Point(445, 549);
+            this.i9.Location = new System.Drawing.Point(432, 568);
             this.i9.Margin = new System.Windows.Forms.Padding(2);
             this.i9.Name = "i9";
             this.i9.Size = new System.Drawing.Size(46, 46);
@@ -1269,7 +1269,7 @@
             this.i8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i8.Location = new System.Drawing.Point(393, 549);
+            this.i8.Location = new System.Drawing.Point(380, 568);
             this.i8.Margin = new System.Windows.Forms.Padding(2);
             this.i8.Name = "i8";
             this.i8.Size = new System.Drawing.Size(46, 46);
@@ -1284,7 +1284,7 @@
             this.h9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h9.Location = new System.Drawing.Point(445, 499);
+            this.h9.Location = new System.Drawing.Point(432, 518);
             this.h9.Margin = new System.Windows.Forms.Padding(2);
             this.h9.Name = "h9";
             this.h9.Size = new System.Drawing.Size(46, 46);
@@ -1299,7 +1299,7 @@
             this.h8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h8.Location = new System.Drawing.Point(393, 499);
+            this.h8.Location = new System.Drawing.Point(380, 518);
             this.h8.Margin = new System.Windows.Forms.Padding(2);
             this.h8.Name = "h8";
             this.h8.Size = new System.Drawing.Size(46, 46);
@@ -1314,7 +1314,7 @@
             this.i2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i2.Location = new System.Drawing.Point(78, 549);
+            this.i2.Location = new System.Drawing.Point(65, 568);
             this.i2.Margin = new System.Windows.Forms.Padding(2);
             this.i2.Name = "i2";
             this.i2.Size = new System.Drawing.Size(46, 46);
@@ -1329,7 +1329,7 @@
             this.i3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i3.Location = new System.Drawing.Point(130, 549);
+            this.i3.Location = new System.Drawing.Point(117, 568);
             this.i3.Margin = new System.Windows.Forms.Padding(2);
             this.i3.Name = "i3";
             this.i3.Size = new System.Drawing.Size(46, 46);
@@ -1344,7 +1344,7 @@
             this.i7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i7.Location = new System.Drawing.Point(340, 549);
+            this.i7.Location = new System.Drawing.Point(327, 568);
             this.i7.Margin = new System.Windows.Forms.Padding(2);
             this.i7.Name = "i7";
             this.i7.Size = new System.Drawing.Size(46, 46);
@@ -1359,7 +1359,7 @@
             this.i6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i6.Location = new System.Drawing.Point(288, 549);
+            this.i6.Location = new System.Drawing.Point(275, 568);
             this.i6.Margin = new System.Windows.Forms.Padding(2);
             this.i6.Name = "i6";
             this.i6.Size = new System.Drawing.Size(46, 46);
@@ -1374,7 +1374,7 @@
             this.i5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i5.Location = new System.Drawing.Point(236, 549);
+            this.i5.Location = new System.Drawing.Point(223, 568);
             this.i5.Margin = new System.Windows.Forms.Padding(2);
             this.i5.Name = "i5";
             this.i5.Size = new System.Drawing.Size(46, 46);
@@ -1389,7 +1389,7 @@
             this.i4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i4.Location = new System.Drawing.Point(183, 549);
+            this.i4.Location = new System.Drawing.Point(170, 568);
             this.i4.Margin = new System.Windows.Forms.Padding(2);
             this.i4.Name = "i4";
             this.i4.Size = new System.Drawing.Size(46, 46);
@@ -1404,7 +1404,7 @@
             this.i1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i1.Location = new System.Drawing.Point(26, 549);
+            this.i1.Location = new System.Drawing.Point(13, 568);
             this.i1.Margin = new System.Windows.Forms.Padding(2);
             this.i1.Name = "i1";
             this.i1.Size = new System.Drawing.Size(46, 46);
@@ -1419,7 +1419,7 @@
             this.h2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h2.Location = new System.Drawing.Point(78, 499);
+            this.h2.Location = new System.Drawing.Point(65, 518);
             this.h2.Margin = new System.Windows.Forms.Padding(2);
             this.h2.Name = "h2";
             this.h2.Size = new System.Drawing.Size(46, 46);
@@ -1434,7 +1434,7 @@
             this.h3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h3.Location = new System.Drawing.Point(130, 499);
+            this.h3.Location = new System.Drawing.Point(117, 518);
             this.h3.Margin = new System.Windows.Forms.Padding(2);
             this.h3.Name = "h3";
             this.h3.Size = new System.Drawing.Size(46, 46);
@@ -1449,7 +1449,7 @@
             this.h7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h7.Location = new System.Drawing.Point(340, 499);
+            this.h7.Location = new System.Drawing.Point(327, 518);
             this.h7.Margin = new System.Windows.Forms.Padding(2);
             this.h7.Name = "h7";
             this.h7.Size = new System.Drawing.Size(46, 46);
@@ -1464,7 +1464,7 @@
             this.h6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h6.Location = new System.Drawing.Point(288, 499);
+            this.h6.Location = new System.Drawing.Point(275, 518);
             this.h6.Margin = new System.Windows.Forms.Padding(2);
             this.h6.Name = "h6";
             this.h6.Size = new System.Drawing.Size(46, 46);
@@ -1479,7 +1479,7 @@
             this.h5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h5.Location = new System.Drawing.Point(236, 499);
+            this.h5.Location = new System.Drawing.Point(223, 518);
             this.h5.Margin = new System.Windows.Forms.Padding(2);
             this.h5.Name = "h5";
             this.h5.Size = new System.Drawing.Size(46, 46);
@@ -1494,7 +1494,7 @@
             this.h4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h4.Location = new System.Drawing.Point(183, 499);
+            this.h4.Location = new System.Drawing.Point(170, 518);
             this.h4.Margin = new System.Windows.Forms.Padding(2);
             this.h4.Name = "h4";
             this.h4.Size = new System.Drawing.Size(46, 46);
@@ -1509,7 +1509,7 @@
             this.h1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h1.Location = new System.Drawing.Point(26, 499);
+            this.h1.Location = new System.Drawing.Point(13, 518);
             this.h1.Margin = new System.Windows.Forms.Padding(2);
             this.h1.Name = "h1";
             this.h1.Size = new System.Drawing.Size(46, 46);
