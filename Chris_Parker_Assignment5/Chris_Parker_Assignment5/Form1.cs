@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 namespace Chris_Parker_Assignment5
 {
     public enum Difficulty { Easy, Medium, Hard };
-    
+
 
     public partial class Form1 : Form
     {
@@ -22,8 +22,8 @@ namespace Chris_Parker_Assignment5
         private static TextBox[,] easyMode;
         private static TextBox[,] medMode;
         private static TextBox[,] hardMode;
-        private int timerValue = 0;        
-        
+        private int timerValue = 0;
+
 
         public Form1()
         {
@@ -33,7 +33,7 @@ namespace Chris_Parker_Assignment5
             medMode = new TextBox[7, 7];
             hardMode = new TextBox[9, 9];
             puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));
-            //ReadPuzzles();
+            ReadPuzzles();
             BuildEasyMode();
             BuildMedMode();
             BuildHardMode();
@@ -45,12 +45,12 @@ namespace Chris_Parker_Assignment5
             this.ActiveControl = label1;
         }
         //Still a work in progress 
-        public void ReadPuzzles ()
+        public void ReadPuzzles()
         {
             using (StreamReader inFile = new StreamReader("C:/Users/Chrips/Desktop/Test/directory.txt"))
             {
                 string fileName = inFile.ReadLine(); //Read the first puzzle file
-                
+
                 while (fileName != null)
                 {
                     using (StreamReader inFile2 = new StreamReader(fileName)) //Now we can open the puzzle file
@@ -62,7 +62,7 @@ namespace Chris_Parker_Assignment5
                             int i = 0;
                             int j = 0;
                             int sum = 0;
-                            
+
                             if (input.Length == 3) //Easy puzzle
                             {
                                 int[,] tempArray = new int[5, 5];
@@ -76,8 +76,8 @@ namespace Chris_Parker_Assignment5
                                     //Populate what will be initialPuzzle
                                     for (j = 0; j < 3; j++)
                                     {
-                                        tempArray[i, j] = (int) Char.GetNumericValue(input[j]);
-                                        sum += tempArray[i, j]; 
+                                        tempArray[i, j] = (int)Char.GetNumericValue(input[j]);
+                                        sum += tempArray[i, j];
                                     }
                                     tempArray[i, 3] = sum; //Set the 4th column sums
 
@@ -97,7 +97,7 @@ namespace Chris_Parker_Assignment5
                                 }
                                 for (i = 0; i < 3; i++) //Get diagonal sum
                                     tempArray[3, 3] += tempArray[i, i];
-                                
+
                                 input = inFile2.ReadLine();
 
                                 //Create Solution Puzzle 2D Array
@@ -156,7 +156,7 @@ namespace Chris_Parker_Assignment5
                                     //Populate what will be initialPuzzle
                                     for (j = 0; j < 5; j++)
                                     {
-                                        tempArray[i, j] = (int)Char.GetNumericValue(input[j]); 
+                                        tempArray[i, j] = (int)Char.GetNumericValue(input[j]);
                                         sum += tempArray[i, j];
                                     }
                                     tempArray[i, 5] = sum; //Set the 6th column sums
@@ -220,7 +220,7 @@ namespace Chris_Parker_Assignment5
                                 for (i = 0; i < 5; i++)
                                     tempArray[i, 6] = tempArray2[i, 6];
 
-                                Puzzle tempPuzzle = new Puzzle(tempArray, tempArray, tempArray2, (Difficulty) 1);
+                                Puzzle tempPuzzle = new Puzzle(tempArray, tempArray, tempArray2, (Difficulty)1);
                                 puzzles.Add(tempPuzzle);
                             }
                             else if (input.Length == 7)//Hard puzzle
@@ -236,7 +236,7 @@ namespace Chris_Parker_Assignment5
                                     //Populate what will be initialPuzzle
                                     for (j = 0; j < 7; j++)
                                     {
-                                        tempArray[i, j] = (int)Char.GetNumericValue(input[j]); 
+                                        tempArray[i, j] = (int)Char.GetNumericValue(input[j]);
                                         sum += tempArray[i, j];
                                     }
                                     tempArray[i, 7] = sum; //Set the 4th column sums
@@ -299,7 +299,7 @@ namespace Chris_Parker_Assignment5
                                 for (i = 0; i < 8; i++)
                                     tempArray[i, 8] = tempArray2[i, 8];
 
-                                Puzzle tempPuzzle = new Puzzle(tempArray, tempArray, tempArray2, (Difficulty) 2);
+                                Puzzle tempPuzzle = new Puzzle(tempArray, tempArray, tempArray2, (Difficulty)2);
                                 puzzles.Add(tempPuzzle);
                             }
 
@@ -309,21 +309,21 @@ namespace Chris_Parker_Assignment5
                     }
 
                     fileName = inFile.ReadLine();
-                }             
+                }
             }
         }//End of ReadPuzzles
-        
+
         public void BuildEasyMode()
         {
             easyMode[0, 0] = c3; easyMode[0, 1] = c4; easyMode[0, 2] = c5; easyMode[0, 3] = c6; easyMode[0, 4] = c7;
             easyMode[1, 0] = d3; easyMode[1, 1] = d4; easyMode[1, 2] = d5; easyMode[1, 3] = d6; easyMode[1, 4] = d7;
             easyMode[2, 0] = e3; easyMode[2, 1] = e4; easyMode[2, 2] = e5; easyMode[2, 3] = e6; easyMode[2, 4] = e7;
             easyMode[3, 0] = f3; easyMode[3, 1] = f4; easyMode[3, 2] = f5; easyMode[3, 3] = f6; easyMode[3, 4] = f7;
-            easyMode[4, 0] = g3; easyMode[4, 1] = g4; easyMode[4, 2] = g5; easyMode[4, 3] = g6; easyMode[4, 4] = g7;            
+            easyMode[4, 0] = g3; easyMode[4, 1] = g4; easyMode[4, 2] = g5; easyMode[4, 3] = g6; easyMode[4, 4] = g7;
 
         }
-        
-        
+
+
         public void BuildMedMode()
         {
             medMode[0, 0] = b2; medMode[0, 1] = b3; medMode[0, 2] = b4; medMode[0, 3] = b5; medMode[0, 4] = b6; medMode[0, 5] = b7; medMode[0, 6] = b8;
@@ -334,7 +334,7 @@ namespace Chris_Parker_Assignment5
             medMode[5, 0] = g2; medMode[5, 1] = g3; medMode[5, 2] = g4; medMode[5, 3] = g5; medMode[5, 4] = g6; medMode[5, 5] = g7; medMode[5, 6] = g8;
             medMode[6, 0] = h2; medMode[6, 1] = h3; medMode[6, 2] = h4; medMode[6, 3] = h5; medMode[6, 4] = h6; medMode[6, 5] = h7; medMode[6, 6] = h8;
         }
-        
+
         public void BuildHardMode()
         {
             hardMode[0, 0] = a1; hardMode[0, 1] = a2; hardMode[0, 2] = a3; hardMode[0, 3] = a4; hardMode[0, 4] = a5; hardMode[0, 5] = a6; hardMode[0, 6] = a7; hardMode[0, 7] = a8; hardMode[0, 8] = a9;
@@ -351,17 +351,17 @@ namespace Chris_Parker_Assignment5
         //textboxes with the appropriate values
         public void CreatePlayingField()
         {
-            for (int i = 0; i < 9; i++)
+            
+            for (int i = 0; i < 5; i++)
             {
-                for(int j = 0; j < 9; j++)
+                for(int j = 0; j < 5; j++)
                 {
-                    hardMode[i, j].Text = puzzles[7][i, j].ToString();
+                    easyMode[i, j].Text = puzzles[0][i, j].ToString();
                 }
             }
+             
         }
-        
-        private void Form1_Load(object sender, EventArgs e)
-        {
+
 
         private void Generate_Puzzle(object sender, EventArgs e)
         {
@@ -372,7 +372,7 @@ namespace Chris_Parker_Assignment5
 
             string diffSetting = puzzleDiff.SelectedItem.ToString();
 
-            if(diffSetting=="Easy")
+            if (diffSetting == "Easy")
             {
                 foreach (TextBox singleItem in hardMode)
                 {
@@ -383,7 +383,7 @@ namespace Chris_Parker_Assignment5
                     singleItem.BackColor = Color.White;
                 }
             }
-            else if(diffSetting=="Medium")
+            else if (diffSetting == "Medium")
             {
                 foreach (TextBox singleItem in hardMode)
                 {
@@ -394,7 +394,7 @@ namespace Chris_Parker_Assignment5
                     singleItem.BackColor = Color.White;
                 }
             }
-            else if(diffSetting=="Hard")
+            else if (diffSetting == "Hard")
             {
                 foreach (TextBox singleItem in hardMode)
                 {
@@ -404,13 +404,13 @@ namespace Chris_Parker_Assignment5
                 {
                     singleItem.BackColor = Color.White;
                 }
-            }           
+            }
 
         }
 
         private void timerStartStopClick(object sender, EventArgs e)
         {
-            
+
             if (timerStartStop.Text == "Start")
             {
                 timer1.Start();
@@ -425,9 +425,9 @@ namespace Chris_Parker_Assignment5
         }
 
         private void timerTick(object sender, EventArgs e)
-        {            
+        {
             timerValue++;
-            timerBox.Text = timerValue.ToString(); 
+            timerBox.Text = timerValue.ToString();
         }
 
         private void fieldKeyPress(object sender, KeyPressEventArgs e)
@@ -448,35 +448,39 @@ namespace Chris_Parker_Assignment5
             {
                 omega.Text = "";
             }
-            
+
             if (omega.Text == "0")
             {
                 omega.Text = "";
             }
+            if (omega.Text != "")
+            {
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 0; j < 5; j++)
+                    {
+                        if (easyMode[i, j].Name == omega.Name)
+                            puzzles[0][i, j] = Convert.ToInt32(omega.Text);
+                    }
+                }
+            }
+
+            MessageBox.Show(puzzles[0][0, 0].ToString());
         }
 
         [DllImport("user32.dll")]
         static extern bool HideCaret(IntPtr hWnd);
         //Method purpose of changing the backColor the text box that has focus
         private void hasFocus(object sender, EventArgs e)
-        {             
+        {
             TextBox omega = sender as TextBox;
             omega.BackColor = Color.Aqua;
-            HideCaret(this.Handle);            
+            HideCaret(this.Handle);
         }
-            
-            
-            /*for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    MessageBox.Show(easyMode[i, j].ToString() + " " + omega.ToString());
-                    if (easyMode[i, j].ToString() == omega.ToString())
-                        puzzles[0][i, j] = Convert.ToInt32(omega.Text);
-                }
-            }
-            */
-        }
+
+
+        
+
 
         //Method purpose of changing the backColor the text box that nolonger has focus
         private void lostFocus(object sender, EventArgs e)
@@ -549,16 +553,16 @@ namespace Chris_Parker_Assignment5
         {
             string theString = String.Empty;
 
-            if(this.puzzleDifficulty == (Difficulty) 0)
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
+            if (this.puzzleDifficulty == (Difficulty)0)
+                for (int i = 0; i < 5; i++)
                 {
-                    theString += String.Format("{0,5}", puzzleSolution[i, j]); 
-                }
+                    for (int j = 0; j < 5; j++)
+                    {
+                        theString += String.Format("{0,5}", puzzleSolution[i, j]);
+                    }
 
-                theString += "\n";
-            }
+                    theString += "\n";
+                }
             if (this.puzzleDifficulty == (Difficulty)1)
                 for (int i = 0; i < 7; i++)
                 {
@@ -596,5 +600,4 @@ namespace Chris_Parker_Assignment5
         */
 
     } //End of Puzzle 
-
-} //End of Assignment 5
+}
