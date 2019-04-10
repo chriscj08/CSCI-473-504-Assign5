@@ -31,8 +31,7 @@ namespace Chris_Parker_Assignment5
             medMode = new TextBox[7, 7];
             hardMode = new TextBox[9, 9];
             puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));
-            ReadPuzzles();
-            BuildEasyMode();
+            //ReadPuzzles();
         }
        
         //Still a work in progress 
@@ -304,11 +303,7 @@ namespace Chris_Parker_Assignment5
             }
         }//End of ReadPuzzles
 
-        public void BuildEasyMode()
-        {
-            easyMode[0, 0] = c3;
-
-        }
+        
         //This method looks at the puzzle being played and allocates 
         //textboxes with the appropriate values
         public void CreatePlayingField(Puzzle thePuzzle)
