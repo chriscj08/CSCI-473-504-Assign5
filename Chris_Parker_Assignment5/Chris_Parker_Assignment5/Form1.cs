@@ -18,19 +18,21 @@ namespace Chris_Parker_Assignment5
     public partial class Form1 : Form
     {
         private static List<Puzzle> puzzles;
-        private static int[,] gameBoard; //Not sure yet if I'll need this...
-        private int timerValue = 0;               
-          
+        private static TextBox[,] easyMode;
+        private static TextBox[,] medMode;
+        private static TextBox[,] hardMode;
+        private int timerValue = 0;
 
         public Form1()
         {
             InitializeComponent();
             puzzles = new List<Puzzle>();
-            puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));            
-            List<TextBox> easyBoard = new List<TextBox>();
-            TextBox[,] easyField = new TextBox[5,5];                   
-            easyBoard.Add(c3); 
-            //ReadPuzzles();
+            easyMode = new TextBox[5, 5];
+            medMode = new TextBox[7, 7];
+            hardMode = new TextBox[9, 9];
+            puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));
+            ReadPuzzles();
+            BuildEasyMode();
         }
        
         //Still a work in progress 
@@ -301,6 +303,18 @@ namespace Chris_Parker_Assignment5
                 }             
             }
         }//End of ReadPuzzles
+
+        public void BuildEasyMode()
+        {
+            easyMode[0, 0] = c3;
+
+        }
+        //This method looks at the puzzle being played and allocates 
+        //textboxes with the appropriate values
+        public void CreatePlayingField(Puzzle thePuzzle)
+        {
+
+        }
         
         private void Form1_Load(object sender, EventArgs e)
         {
