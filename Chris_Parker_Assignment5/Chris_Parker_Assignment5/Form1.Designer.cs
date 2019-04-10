@@ -143,12 +143,14 @@
             // 
             // a1
             // 
+            this.a1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.a1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a1.Location = new System.Drawing.Point(26, 102);
+            this.a1.Location = new System.Drawing.Point(26, 149);
             this.a1.Margin = new System.Windows.Forms.Padding(2);
             this.a1.Name = "a1";
-            this.a1.Size = new System.Drawing.Size(49, 53);
+            this.a1.Size = new System.Drawing.Size(46, 46);
             this.a1.TabIndex = 1;
             this.a1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a1.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -156,12 +158,14 @@
             // 
             // a4
             // 
+            this.a4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.a4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a4.Location = new System.Drawing.Point(183, 102);
+            this.a4.Location = new System.Drawing.Point(184, 149);
             this.a4.Margin = new System.Windows.Forms.Padding(2);
             this.a4.Name = "a4";
-            this.a4.Size = new System.Drawing.Size(49, 53);
+            this.a4.Size = new System.Drawing.Size(46, 46);
             this.a4.TabIndex = 2;
             this.a4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a4.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -169,12 +173,14 @@
             // 
             // a5
             // 
+            this.a5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.a5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a5.Location = new System.Drawing.Point(236, 102);
+            this.a5.Location = new System.Drawing.Point(237, 149);
             this.a5.Margin = new System.Windows.Forms.Padding(2);
             this.a5.Name = "a5";
-            this.a5.Size = new System.Drawing.Size(49, 53);
+            this.a5.Size = new System.Drawing.Size(46, 46);
             this.a5.TabIndex = 4;
             this.a5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a5.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -182,12 +188,14 @@
             // 
             // a6
             // 
+            this.a6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.a6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a6.Location = new System.Drawing.Point(288, 102);
+            this.a6.Location = new System.Drawing.Point(289, 149);
             this.a6.Margin = new System.Windows.Forms.Padding(2);
             this.a6.Name = "a6";
-            this.a6.Size = new System.Drawing.Size(49, 53);
+            this.a6.Size = new System.Drawing.Size(46, 46);
             this.a6.TabIndex = 5;
             this.a6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a6.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -195,12 +203,14 @@
             // 
             // a7
             // 
+            this.a7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.a7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a7.Location = new System.Drawing.Point(340, 102);
+            this.a7.Location = new System.Drawing.Point(341, 149);
             this.a7.Margin = new System.Windows.Forms.Padding(2);
             this.a7.Name = "a7";
-            this.a7.Size = new System.Drawing.Size(49, 53);
+            this.a7.Size = new System.Drawing.Size(46, 46);
             this.a7.TabIndex = 6;
             this.a7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a7.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -208,12 +218,14 @@
             // 
             // a3
             // 
+            this.a3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.a3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a3.Location = new System.Drawing.Point(130, 102);
+            this.a3.Location = new System.Drawing.Point(131, 149);
             this.a3.Margin = new System.Windows.Forms.Padding(2);
             this.a3.Name = "a3";
-            this.a3.Size = new System.Drawing.Size(49, 53);
+            this.a3.Size = new System.Drawing.Size(46, 46);
             this.a3.TabIndex = 7;
             this.a3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a3.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -221,12 +233,14 @@
             // 
             // a2
             // 
+            this.a2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.a2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a2.Location = new System.Drawing.Point(78, 102);
+            this.a2.Location = new System.Drawing.Point(79, 149);
             this.a2.Margin = new System.Windows.Forms.Padding(2);
             this.a2.Name = "a2";
-            this.a2.Size = new System.Drawing.Size(49, 53);
+            this.a2.Size = new System.Drawing.Size(46, 46);
             this.a2.TabIndex = 8;
             this.a2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a2.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -234,12 +248,14 @@
             // 
             // d2
             // 
+            this.d2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.d2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d2.Location = new System.Drawing.Point(78, 273);
+            this.d2.Location = new System.Drawing.Point(78, 299);
             this.d2.Margin = new System.Windows.Forms.Padding(2);
             this.d2.Name = "d2";
-            this.d2.Size = new System.Drawing.Size(49, 53);
+            this.d2.Size = new System.Drawing.Size(46, 46);
             this.d2.TabIndex = 16;
             this.d2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d2.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -247,12 +263,14 @@
             // 
             // d3
             // 
+            this.d3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.d3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d3.Location = new System.Drawing.Point(130, 273);
+            this.d3.Location = new System.Drawing.Point(130, 299);
             this.d3.Margin = new System.Windows.Forms.Padding(2);
             this.d3.Name = "d3";
-            this.d3.Size = new System.Drawing.Size(49, 53);
+            this.d3.Size = new System.Drawing.Size(46, 46);
             this.d3.TabIndex = 15;
             this.d3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d3.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -260,12 +278,14 @@
             // 
             // d7
             // 
+            this.d7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.d7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d7.Location = new System.Drawing.Point(340, 273);
+            this.d7.Location = new System.Drawing.Point(340, 299);
             this.d7.Margin = new System.Windows.Forms.Padding(2);
             this.d7.Name = "d7";
-            this.d7.Size = new System.Drawing.Size(49, 53);
+            this.d7.Size = new System.Drawing.Size(46, 46);
             this.d7.TabIndex = 14;
             this.d7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d7.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -273,12 +293,14 @@
             // 
             // d6
             // 
+            this.d6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.d6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d6.Location = new System.Drawing.Point(288, 273);
+            this.d6.Location = new System.Drawing.Point(288, 299);
             this.d6.Margin = new System.Windows.Forms.Padding(2);
             this.d6.Name = "d6";
-            this.d6.Size = new System.Drawing.Size(49, 53);
+            this.d6.Size = new System.Drawing.Size(46, 46);
             this.d6.TabIndex = 13;
             this.d6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d6.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -286,12 +308,14 @@
             // 
             // d5
             // 
+            this.d5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.d5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d5.Location = new System.Drawing.Point(236, 273);
+            this.d5.Location = new System.Drawing.Point(236, 299);
             this.d5.Margin = new System.Windows.Forms.Padding(2);
             this.d5.Name = "d5";
-            this.d5.Size = new System.Drawing.Size(49, 53);
+            this.d5.Size = new System.Drawing.Size(46, 46);
             this.d5.TabIndex = 12;
             this.d5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d5.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -299,12 +323,14 @@
             // 
             // d4
             // 
+            this.d4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.d4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d4.Location = new System.Drawing.Point(183, 273);
+            this.d4.Location = new System.Drawing.Point(183, 299);
             this.d4.Margin = new System.Windows.Forms.Padding(2);
             this.d4.Name = "d4";
-            this.d4.Size = new System.Drawing.Size(49, 53);
+            this.d4.Size = new System.Drawing.Size(46, 46);
             this.d4.TabIndex = 10;
             this.d4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d4.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -312,12 +338,14 @@
             // 
             // d1
             // 
+            this.d1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.d1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d1.Location = new System.Drawing.Point(26, 273);
+            this.d1.Location = new System.Drawing.Point(26, 299);
             this.d1.Margin = new System.Windows.Forms.Padding(2);
             this.d1.Name = "d1";
-            this.d1.Size = new System.Drawing.Size(49, 53);
+            this.d1.Size = new System.Drawing.Size(46, 46);
             this.d1.TabIndex = 9;
             this.d1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d1.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -325,12 +353,14 @@
             // 
             // c2
             // 
+            this.c2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.c2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c2.Location = new System.Drawing.Point(78, 216);
+            this.c2.Location = new System.Drawing.Point(78, 249);
             this.c2.Margin = new System.Windows.Forms.Padding(2);
             this.c2.Name = "c2";
-            this.c2.Size = new System.Drawing.Size(49, 53);
+            this.c2.Size = new System.Drawing.Size(46, 46);
             this.c2.TabIndex = 24;
             this.c2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c2.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -338,13 +368,14 @@
             // 
             // c3
             // 
-            this.c3.BackColor = System.Drawing.Color.DarkGray;
+            this.c3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.c3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c3.Location = new System.Drawing.Point(130, 216);
+            this.c3.Location = new System.Drawing.Point(130, 249);
             this.c3.Margin = new System.Windows.Forms.Padding(2);
             this.c3.Name = "c3";
-            this.c3.Size = new System.Drawing.Size(49, 53);
+            this.c3.Size = new System.Drawing.Size(46, 46);
             this.c3.TabIndex = 23;
             this.c3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c3.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -352,13 +383,14 @@
             // 
             // c7
             // 
-            this.c7.BackColor = System.Drawing.Color.DarkGray;
+            this.c7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.c7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c7.Location = new System.Drawing.Point(340, 216);
+            this.c7.Location = new System.Drawing.Point(340, 249);
             this.c7.Margin = new System.Windows.Forms.Padding(2);
             this.c7.Name = "c7";
-            this.c7.Size = new System.Drawing.Size(49, 53);
+            this.c7.Size = new System.Drawing.Size(46, 46);
             this.c7.TabIndex = 22;
             this.c7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c7.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -366,12 +398,14 @@
             // 
             // c6
             // 
+            this.c6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.c6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c6.Location = new System.Drawing.Point(288, 216);
+            this.c6.Location = new System.Drawing.Point(288, 249);
             this.c6.Margin = new System.Windows.Forms.Padding(2);
             this.c6.Name = "c6";
-            this.c6.Size = new System.Drawing.Size(49, 53);
+            this.c6.Size = new System.Drawing.Size(46, 46);
             this.c6.TabIndex = 21;
             this.c6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c6.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -379,12 +413,14 @@
             // 
             // c5
             // 
+            this.c5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.c5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c5.Location = new System.Drawing.Point(236, 216);
+            this.c5.Location = new System.Drawing.Point(236, 249);
             this.c5.Margin = new System.Windows.Forms.Padding(2);
             this.c5.Name = "c5";
-            this.c5.Size = new System.Drawing.Size(49, 53);
+            this.c5.Size = new System.Drawing.Size(46, 46);
             this.c5.TabIndex = 20;
             this.c5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c5.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -392,12 +428,14 @@
             // 
             // c4
             // 
+            this.c4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.c4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c4.Location = new System.Drawing.Point(183, 216);
+            this.c4.Location = new System.Drawing.Point(183, 249);
             this.c4.Margin = new System.Windows.Forms.Padding(2);
             this.c4.Name = "c4";
-            this.c4.Size = new System.Drawing.Size(49, 53);
+            this.c4.Size = new System.Drawing.Size(46, 46);
             this.c4.TabIndex = 18;
             this.c4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c4.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -405,12 +443,14 @@
             // 
             // c1
             // 
+            this.c1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.c1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c1.Location = new System.Drawing.Point(26, 216);
+            this.c1.Location = new System.Drawing.Point(26, 249);
             this.c1.Margin = new System.Windows.Forms.Padding(2);
             this.c1.Name = "c1";
-            this.c1.Size = new System.Drawing.Size(49, 53);
+            this.c1.Size = new System.Drawing.Size(46, 46);
             this.c1.TabIndex = 17;
             this.c1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c1.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -418,12 +458,14 @@
             // 
             // b2
             // 
+            this.b2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.b2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b2.Location = new System.Drawing.Point(78, 159);
+            this.b2.Location = new System.Drawing.Point(79, 199);
             this.b2.Margin = new System.Windows.Forms.Padding(2);
             this.b2.Name = "b2";
-            this.b2.Size = new System.Drawing.Size(49, 53);
+            this.b2.Size = new System.Drawing.Size(46, 46);
             this.b2.TabIndex = 32;
             this.b2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b2.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -431,12 +473,14 @@
             // 
             // b3
             // 
+            this.b3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.b3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b3.Location = new System.Drawing.Point(130, 159);
+            this.b3.Location = new System.Drawing.Point(131, 199);
             this.b3.Margin = new System.Windows.Forms.Padding(2);
             this.b3.Name = "b3";
-            this.b3.Size = new System.Drawing.Size(49, 53);
+            this.b3.Size = new System.Drawing.Size(46, 46);
             this.b3.TabIndex = 31;
             this.b3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b3.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -444,12 +488,14 @@
             // 
             // b7
             // 
+            this.b7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.b7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b7.Location = new System.Drawing.Point(340, 159);
+            this.b7.Location = new System.Drawing.Point(341, 199);
             this.b7.Margin = new System.Windows.Forms.Padding(2);
             this.b7.Name = "b7";
-            this.b7.Size = new System.Drawing.Size(49, 53);
+            this.b7.Size = new System.Drawing.Size(46, 46);
             this.b7.TabIndex = 30;
             this.b7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b7.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -457,12 +503,14 @@
             // 
             // b6
             // 
+            this.b6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.b6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b6.Location = new System.Drawing.Point(288, 159);
+            this.b6.Location = new System.Drawing.Point(289, 199);
             this.b6.Margin = new System.Windows.Forms.Padding(2);
             this.b6.Name = "b6";
-            this.b6.Size = new System.Drawing.Size(49, 53);
+            this.b6.Size = new System.Drawing.Size(46, 46);
             this.b6.TabIndex = 29;
             this.b6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b6.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -470,12 +518,14 @@
             // 
             // b5
             // 
+            this.b5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.b5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b5.Location = new System.Drawing.Point(236, 159);
+            this.b5.Location = new System.Drawing.Point(237, 199);
             this.b5.Margin = new System.Windows.Forms.Padding(2);
             this.b5.Name = "b5";
-            this.b5.Size = new System.Drawing.Size(49, 53);
+            this.b5.Size = new System.Drawing.Size(46, 46);
             this.b5.TabIndex = 28;
             this.b5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b5.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -483,12 +533,14 @@
             // 
             // b4
             // 
+            this.b4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.b4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b4.Location = new System.Drawing.Point(183, 159);
+            this.b4.Location = new System.Drawing.Point(184, 199);
             this.b4.Margin = new System.Windows.Forms.Padding(2);
             this.b4.Name = "b4";
-            this.b4.Size = new System.Drawing.Size(49, 53);
+            this.b4.Size = new System.Drawing.Size(46, 46);
             this.b4.TabIndex = 26;
             this.b4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b4.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -496,12 +548,14 @@
             // 
             // b1
             // 
+            this.b1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.b1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b1.Location = new System.Drawing.Point(26, 159);
+            this.b1.Location = new System.Drawing.Point(26, 199);
             this.b1.Margin = new System.Windows.Forms.Padding(2);
             this.b1.Name = "b1";
-            this.b1.Size = new System.Drawing.Size(49, 53);
+            this.b1.Size = new System.Drawing.Size(46, 46);
             this.b1.TabIndex = 25;
             this.b1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b1.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -509,12 +563,14 @@
             // 
             // e2
             // 
+            this.e2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.e2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e2.Location = new System.Drawing.Point(78, 330);
+            this.e2.Location = new System.Drawing.Point(78, 349);
             this.e2.Margin = new System.Windows.Forms.Padding(2);
             this.e2.Name = "e2";
-            this.e2.Size = new System.Drawing.Size(49, 53);
+            this.e2.Size = new System.Drawing.Size(46, 46);
             this.e2.TabIndex = 40;
             this.e2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e2.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -522,12 +578,14 @@
             // 
             // e3
             // 
+            this.e3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.e3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e3.Location = new System.Drawing.Point(130, 330);
+            this.e3.Location = new System.Drawing.Point(130, 349);
             this.e3.Margin = new System.Windows.Forms.Padding(2);
             this.e3.Name = "e3";
-            this.e3.Size = new System.Drawing.Size(49, 53);
+            this.e3.Size = new System.Drawing.Size(46, 46);
             this.e3.TabIndex = 39;
             this.e3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e3.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -535,12 +593,14 @@
             // 
             // e7
             // 
+            this.e7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.e7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e7.Location = new System.Drawing.Point(340, 330);
+            this.e7.Location = new System.Drawing.Point(340, 349);
             this.e7.Margin = new System.Windows.Forms.Padding(2);
             this.e7.Name = "e7";
-            this.e7.Size = new System.Drawing.Size(49, 53);
+            this.e7.Size = new System.Drawing.Size(46, 46);
             this.e7.TabIndex = 38;
             this.e7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e7.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -548,12 +608,14 @@
             // 
             // e6
             // 
+            this.e6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.e6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e6.Location = new System.Drawing.Point(288, 330);
+            this.e6.Location = new System.Drawing.Point(288, 349);
             this.e6.Margin = new System.Windows.Forms.Padding(2);
             this.e6.Name = "e6";
-            this.e6.Size = new System.Drawing.Size(49, 53);
+            this.e6.Size = new System.Drawing.Size(46, 46);
             this.e6.TabIndex = 37;
             this.e6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e6.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -561,12 +623,14 @@
             // 
             // e5
             // 
+            this.e5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.e5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e5.Location = new System.Drawing.Point(236, 330);
+            this.e5.Location = new System.Drawing.Point(236, 349);
             this.e5.Margin = new System.Windows.Forms.Padding(2);
             this.e5.Name = "e5";
-            this.e5.Size = new System.Drawing.Size(49, 53);
+            this.e5.Size = new System.Drawing.Size(46, 46);
             this.e5.TabIndex = 36;
             this.e5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e5.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -574,12 +638,14 @@
             // 
             // e4
             // 
+            this.e4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.e4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e4.Location = new System.Drawing.Point(183, 330);
+            this.e4.Location = new System.Drawing.Point(183, 349);
             this.e4.Margin = new System.Windows.Forms.Padding(2);
             this.e4.Name = "e4";
-            this.e4.Size = new System.Drawing.Size(49, 53);
+            this.e4.Size = new System.Drawing.Size(46, 46);
             this.e4.TabIndex = 34;
             this.e4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e4.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -587,12 +653,14 @@
             // 
             // e1
             // 
+            this.e1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.e1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e1.Location = new System.Drawing.Point(26, 330);
+            this.e1.Location = new System.Drawing.Point(26, 349);
             this.e1.Margin = new System.Windows.Forms.Padding(2);
             this.e1.Name = "e1";
-            this.e1.Size = new System.Drawing.Size(49, 53);
+            this.e1.Size = new System.Drawing.Size(46, 46);
             this.e1.TabIndex = 33;
             this.e1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e1.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -600,12 +668,14 @@
             // 
             // f2
             // 
+            this.f2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f2.Location = new System.Drawing.Point(78, 387);
+            this.f2.Location = new System.Drawing.Point(78, 399);
             this.f2.Margin = new System.Windows.Forms.Padding(2);
             this.f2.Name = "f2";
-            this.f2.Size = new System.Drawing.Size(49, 53);
+            this.f2.Size = new System.Drawing.Size(46, 46);
             this.f2.TabIndex = 48;
             this.f2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f2.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -613,12 +683,14 @@
             // 
             // f3
             // 
+            this.f3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f3.Location = new System.Drawing.Point(130, 387);
+            this.f3.Location = new System.Drawing.Point(130, 399);
             this.f3.Margin = new System.Windows.Forms.Padding(2);
             this.f3.Name = "f3";
-            this.f3.Size = new System.Drawing.Size(49, 53);
+            this.f3.Size = new System.Drawing.Size(46, 46);
             this.f3.TabIndex = 47;
             this.f3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f3.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -626,12 +698,14 @@
             // 
             // f7
             // 
+            this.f7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f7.Location = new System.Drawing.Point(340, 387);
+            this.f7.Location = new System.Drawing.Point(340, 399);
             this.f7.Margin = new System.Windows.Forms.Padding(2);
             this.f7.Name = "f7";
-            this.f7.Size = new System.Drawing.Size(49, 53);
+            this.f7.Size = new System.Drawing.Size(46, 46);
             this.f7.TabIndex = 46;
             this.f7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f7.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -639,12 +713,14 @@
             // 
             // f6
             // 
+            this.f6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f6.Location = new System.Drawing.Point(288, 387);
+            this.f6.Location = new System.Drawing.Point(288, 399);
             this.f6.Margin = new System.Windows.Forms.Padding(2);
             this.f6.Name = "f6";
-            this.f6.Size = new System.Drawing.Size(49, 53);
+            this.f6.Size = new System.Drawing.Size(46, 46);
             this.f6.TabIndex = 45;
             this.f6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f6.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -652,12 +728,14 @@
             // 
             // f5
             // 
+            this.f5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f5.Location = new System.Drawing.Point(236, 387);
+            this.f5.Location = new System.Drawing.Point(236, 399);
             this.f5.Margin = new System.Windows.Forms.Padding(2);
             this.f5.Name = "f5";
-            this.f5.Size = new System.Drawing.Size(49, 53);
+            this.f5.Size = new System.Drawing.Size(46, 46);
             this.f5.TabIndex = 44;
             this.f5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f5.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -665,12 +743,14 @@
             // 
             // f4
             // 
+            this.f4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f4.Location = new System.Drawing.Point(183, 387);
+            this.f4.Location = new System.Drawing.Point(183, 399);
             this.f4.Margin = new System.Windows.Forms.Padding(2);
             this.f4.Name = "f4";
-            this.f4.Size = new System.Drawing.Size(49, 53);
+            this.f4.Size = new System.Drawing.Size(46, 46);
             this.f4.TabIndex = 42;
             this.f4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f4.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -678,12 +758,14 @@
             // 
             // f1
             // 
+            this.f1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f1.Location = new System.Drawing.Point(26, 387);
+            this.f1.Location = new System.Drawing.Point(26, 399);
             this.f1.Margin = new System.Windows.Forms.Padding(2);
             this.f1.Name = "f1";
-            this.f1.Size = new System.Drawing.Size(49, 53);
+            this.f1.Size = new System.Drawing.Size(46, 46);
             this.f1.TabIndex = 41;
             this.f1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f1.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -691,12 +773,14 @@
             // 
             // g2
             // 
+            this.g2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.g2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g2.Location = new System.Drawing.Point(78, 443);
+            this.g2.Location = new System.Drawing.Point(78, 449);
             this.g2.Margin = new System.Windows.Forms.Padding(2);
             this.g2.Name = "g2";
-            this.g2.Size = new System.Drawing.Size(49, 53);
+            this.g2.Size = new System.Drawing.Size(46, 46);
             this.g2.TabIndex = 56;
             this.g2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g2.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -704,13 +788,14 @@
             // 
             // g3
             // 
-            this.g3.BackColor = System.Drawing.Color.DarkGray;
+            this.g3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.g3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g3.Location = new System.Drawing.Point(130, 443);
+            this.g3.Location = new System.Drawing.Point(130, 449);
             this.g3.Margin = new System.Windows.Forms.Padding(2);
             this.g3.Name = "g3";
-            this.g3.Size = new System.Drawing.Size(49, 53);
+            this.g3.Size = new System.Drawing.Size(46, 46);
             this.g3.TabIndex = 55;
             this.g3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g3.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -718,13 +803,14 @@
             // 
             // g7
             // 
-            this.g7.BackColor = System.Drawing.Color.DarkGray;
+            this.g7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.g7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g7.Location = new System.Drawing.Point(340, 443);
+            this.g7.Location = new System.Drawing.Point(340, 449);
             this.g7.Margin = new System.Windows.Forms.Padding(2);
             this.g7.Name = "g7";
-            this.g7.Size = new System.Drawing.Size(49, 53);
+            this.g7.Size = new System.Drawing.Size(46, 46);
             this.g7.TabIndex = 54;
             this.g7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g7.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -732,12 +818,14 @@
             // 
             // g6
             // 
+            this.g6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.g6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g6.Location = new System.Drawing.Point(288, 443);
+            this.g6.Location = new System.Drawing.Point(288, 449);
             this.g6.Margin = new System.Windows.Forms.Padding(2);
             this.g6.Name = "g6";
-            this.g6.Size = new System.Drawing.Size(49, 53);
+            this.g6.Size = new System.Drawing.Size(46, 46);
             this.g6.TabIndex = 53;
             this.g6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g6.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -745,12 +833,14 @@
             // 
             // g5
             // 
+            this.g5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.g5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g5.Location = new System.Drawing.Point(236, 443);
+            this.g5.Location = new System.Drawing.Point(236, 449);
             this.g5.Margin = new System.Windows.Forms.Padding(2);
             this.g5.Name = "g5";
-            this.g5.Size = new System.Drawing.Size(49, 53);
+            this.g5.Size = new System.Drawing.Size(46, 46);
             this.g5.TabIndex = 52;
             this.g5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g5.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -758,12 +848,14 @@
             // 
             // g4
             // 
+            this.g4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.g4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g4.Location = new System.Drawing.Point(183, 443);
+            this.g4.Location = new System.Drawing.Point(183, 449);
             this.g4.Margin = new System.Windows.Forms.Padding(2);
             this.g4.Name = "g4";
-            this.g4.Size = new System.Drawing.Size(49, 53);
+            this.g4.Size = new System.Drawing.Size(46, 46);
             this.g4.TabIndex = 50;
             this.g4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g4.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -771,12 +863,14 @@
             // 
             // g1
             // 
+            this.g1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.g1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g1.Location = new System.Drawing.Point(26, 443);
+            this.g1.Location = new System.Drawing.Point(26, 449);
             this.g1.Margin = new System.Windows.Forms.Padding(2);
             this.g1.Name = "g1";
-            this.g1.Size = new System.Drawing.Size(49, 53);
+            this.g1.Size = new System.Drawing.Size(46, 46);
             this.g1.TabIndex = 49;
             this.g1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g1.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -946,12 +1040,14 @@
             // 
             // g9
             // 
+            this.g9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.g9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g9.Location = new System.Drawing.Point(445, 443);
+            this.g9.Location = new System.Drawing.Point(445, 449);
             this.g9.Margin = new System.Windows.Forms.Padding(2);
             this.g9.Name = "g9";
-            this.g9.Size = new System.Drawing.Size(49, 53);
+            this.g9.Size = new System.Drawing.Size(46, 46);
             this.g9.TabIndex = 85;
             this.g9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g9.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -959,12 +1055,14 @@
             // 
             // g8
             // 
+            this.g8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.g8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.g8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g8.Location = new System.Drawing.Point(393, 443);
+            this.g8.Location = new System.Drawing.Point(393, 449);
             this.g8.Margin = new System.Windows.Forms.Padding(2);
             this.g8.Name = "g8";
-            this.g8.Size = new System.Drawing.Size(49, 53);
+            this.g8.Size = new System.Drawing.Size(46, 46);
             this.g8.TabIndex = 84;
             this.g8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g8.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -972,12 +1070,14 @@
             // 
             // f9
             // 
+            this.f9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f9.Location = new System.Drawing.Point(445, 387);
+            this.f9.Location = new System.Drawing.Point(445, 399);
             this.f9.Margin = new System.Windows.Forms.Padding(2);
             this.f9.Name = "f9";
-            this.f9.Size = new System.Drawing.Size(49, 53);
+            this.f9.Size = new System.Drawing.Size(46, 46);
             this.f9.TabIndex = 83;
             this.f9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f9.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -985,12 +1085,14 @@
             // 
             // f8
             // 
+            this.f8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.f8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.f8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.f8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.f8.Location = new System.Drawing.Point(393, 387);
+            this.f8.Location = new System.Drawing.Point(393, 399);
             this.f8.Margin = new System.Windows.Forms.Padding(2);
             this.f8.Name = "f8";
-            this.f8.Size = new System.Drawing.Size(49, 53);
+            this.f8.Size = new System.Drawing.Size(46, 46);
             this.f8.TabIndex = 82;
             this.f8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f8.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -998,12 +1100,14 @@
             // 
             // e9
             // 
+            this.e9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.e9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e9.Location = new System.Drawing.Point(445, 330);
+            this.e9.Location = new System.Drawing.Point(445, 349);
             this.e9.Margin = new System.Windows.Forms.Padding(2);
             this.e9.Name = "e9";
-            this.e9.Size = new System.Drawing.Size(49, 53);
+            this.e9.Size = new System.Drawing.Size(46, 46);
             this.e9.TabIndex = 81;
             this.e9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e9.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1011,12 +1115,14 @@
             // 
             // e8
             // 
+            this.e8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.e8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.e8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e8.Location = new System.Drawing.Point(393, 330);
+            this.e8.Location = new System.Drawing.Point(393, 349);
             this.e8.Margin = new System.Windows.Forms.Padding(2);
             this.e8.Name = "e8";
-            this.e8.Size = new System.Drawing.Size(49, 53);
+            this.e8.Size = new System.Drawing.Size(46, 46);
             this.e8.TabIndex = 80;
             this.e8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e8.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1024,12 +1130,14 @@
             // 
             // b9
             // 
+            this.b9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.b9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b9.Location = new System.Drawing.Point(445, 159);
+            this.b9.Location = new System.Drawing.Point(446, 199);
             this.b9.Margin = new System.Windows.Forms.Padding(2);
             this.b9.Name = "b9";
-            this.b9.Size = new System.Drawing.Size(49, 53);
+            this.b9.Size = new System.Drawing.Size(46, 46);
             this.b9.TabIndex = 79;
             this.b9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b9.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1037,12 +1145,14 @@
             // 
             // b8
             // 
+            this.b8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.b8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.b8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.b8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b8.Location = new System.Drawing.Point(393, 159);
+            this.b8.Location = new System.Drawing.Point(394, 199);
             this.b8.Margin = new System.Windows.Forms.Padding(2);
             this.b8.Name = "b8";
-            this.b8.Size = new System.Drawing.Size(49, 53);
+            this.b8.Size = new System.Drawing.Size(46, 46);
             this.b8.TabIndex = 78;
             this.b8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b8.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1050,12 +1160,14 @@
             // 
             // c9
             // 
+            this.c9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.c9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c9.Location = new System.Drawing.Point(445, 216);
+            this.c9.Location = new System.Drawing.Point(445, 249);
             this.c9.Margin = new System.Windows.Forms.Padding(2);
             this.c9.Name = "c9";
-            this.c9.Size = new System.Drawing.Size(49, 53);
+            this.c9.Size = new System.Drawing.Size(46, 46);
             this.c9.TabIndex = 77;
             this.c9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c9.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1063,12 +1175,14 @@
             // 
             // c8
             // 
+            this.c8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.c8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.c8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c8.Location = new System.Drawing.Point(393, 216);
+            this.c8.Location = new System.Drawing.Point(393, 249);
             this.c8.Margin = new System.Windows.Forms.Padding(2);
             this.c8.Name = "c8";
-            this.c8.Size = new System.Drawing.Size(49, 53);
+            this.c8.Size = new System.Drawing.Size(46, 46);
             this.c8.TabIndex = 76;
             this.c8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c8.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1076,12 +1190,14 @@
             // 
             // d9
             // 
+            this.d9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.d9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d9.Location = new System.Drawing.Point(445, 273);
+            this.d9.Location = new System.Drawing.Point(445, 299);
             this.d9.Margin = new System.Windows.Forms.Padding(2);
             this.d9.Name = "d9";
-            this.d9.Size = new System.Drawing.Size(49, 53);
+            this.d9.Size = new System.Drawing.Size(46, 46);
             this.d9.TabIndex = 75;
             this.d9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d9.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1089,12 +1205,14 @@
             // 
             // d8
             // 
+            this.d8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.d8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.d8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.d8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d8.Location = new System.Drawing.Point(393, 273);
+            this.d8.Location = new System.Drawing.Point(393, 299);
             this.d8.Margin = new System.Windows.Forms.Padding(2);
             this.d8.Name = "d8";
-            this.d8.Size = new System.Drawing.Size(49, 53);
+            this.d8.Size = new System.Drawing.Size(46, 46);
             this.d8.TabIndex = 74;
             this.d8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d8.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1102,12 +1220,14 @@
             // 
             // a9
             // 
+            this.a9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.a9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a9.Location = new System.Drawing.Point(445, 102);
+            this.a9.Location = new System.Drawing.Point(446, 149);
             this.a9.Margin = new System.Windows.Forms.Padding(2);
             this.a9.Name = "a9";
-            this.a9.Size = new System.Drawing.Size(49, 53);
+            this.a9.Size = new System.Drawing.Size(46, 46);
             this.a9.TabIndex = 73;
             this.a9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a9.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1115,12 +1235,14 @@
             // 
             // a8
             // 
+            this.a8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.a8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.a8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.a8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a8.Location = new System.Drawing.Point(393, 102);
+            this.a8.Location = new System.Drawing.Point(394, 149);
             this.a8.Margin = new System.Windows.Forms.Padding(2);
             this.a8.Name = "a8";
-            this.a8.Size = new System.Drawing.Size(49, 53);
+            this.a8.Size = new System.Drawing.Size(46, 46);
             this.a8.TabIndex = 72;
             this.a8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a8.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1128,12 +1250,14 @@
             // 
             // i9
             // 
+            this.i9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.i9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i9.Location = new System.Drawing.Point(445, 556);
+            this.i9.Location = new System.Drawing.Point(445, 549);
             this.i9.Margin = new System.Windows.Forms.Padding(2);
             this.i9.Name = "i9";
-            this.i9.Size = new System.Drawing.Size(49, 53);
+            this.i9.Size = new System.Drawing.Size(46, 46);
             this.i9.TabIndex = 103;
             this.i9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i9.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1141,12 +1265,14 @@
             // 
             // i8
             // 
+            this.i8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.i8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i8.Location = new System.Drawing.Point(393, 556);
+            this.i8.Location = new System.Drawing.Point(393, 549);
             this.i8.Margin = new System.Windows.Forms.Padding(2);
             this.i8.Name = "i8";
-            this.i8.Size = new System.Drawing.Size(49, 53);
+            this.i8.Size = new System.Drawing.Size(46, 46);
             this.i8.TabIndex = 102;
             this.i8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i8.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1154,12 +1280,14 @@
             // 
             // h9
             // 
+            this.h9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.h9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h9.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h9.Location = new System.Drawing.Point(445, 500);
+            this.h9.Location = new System.Drawing.Point(445, 499);
             this.h9.Margin = new System.Windows.Forms.Padding(2);
             this.h9.Name = "h9";
-            this.h9.Size = new System.Drawing.Size(49, 53);
+            this.h9.Size = new System.Drawing.Size(46, 46);
             this.h9.TabIndex = 101;
             this.h9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h9.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1167,12 +1295,14 @@
             // 
             // h8
             // 
+            this.h8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.h8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h8.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h8.Location = new System.Drawing.Point(393, 500);
+            this.h8.Location = new System.Drawing.Point(393, 499);
             this.h8.Margin = new System.Windows.Forms.Padding(2);
             this.h8.Name = "h8";
-            this.h8.Size = new System.Drawing.Size(49, 53);
+            this.h8.Size = new System.Drawing.Size(46, 46);
             this.h8.TabIndex = 100;
             this.h8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h8.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1180,12 +1310,14 @@
             // 
             // i2
             // 
+            this.i2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.i2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i2.Location = new System.Drawing.Point(78, 556);
+            this.i2.Location = new System.Drawing.Point(78, 549);
             this.i2.Margin = new System.Windows.Forms.Padding(2);
             this.i2.Name = "i2";
-            this.i2.Size = new System.Drawing.Size(49, 53);
+            this.i2.Size = new System.Drawing.Size(46, 46);
             this.i2.TabIndex = 99;
             this.i2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i2.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1193,12 +1325,14 @@
             // 
             // i3
             // 
+            this.i3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.i3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i3.Location = new System.Drawing.Point(130, 556);
+            this.i3.Location = new System.Drawing.Point(130, 549);
             this.i3.Margin = new System.Windows.Forms.Padding(2);
             this.i3.Name = "i3";
-            this.i3.Size = new System.Drawing.Size(49, 53);
+            this.i3.Size = new System.Drawing.Size(46, 46);
             this.i3.TabIndex = 98;
             this.i3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i3.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1206,12 +1340,14 @@
             // 
             // i7
             // 
+            this.i7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.i7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i7.Location = new System.Drawing.Point(340, 556);
+            this.i7.Location = new System.Drawing.Point(340, 549);
             this.i7.Margin = new System.Windows.Forms.Padding(2);
             this.i7.Name = "i7";
-            this.i7.Size = new System.Drawing.Size(49, 53);
+            this.i7.Size = new System.Drawing.Size(46, 46);
             this.i7.TabIndex = 97;
             this.i7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i7.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1219,12 +1355,14 @@
             // 
             // i6
             // 
+            this.i6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.i6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i6.Location = new System.Drawing.Point(288, 556);
+            this.i6.Location = new System.Drawing.Point(288, 549);
             this.i6.Margin = new System.Windows.Forms.Padding(2);
             this.i6.Name = "i6";
-            this.i6.Size = new System.Drawing.Size(49, 53);
+            this.i6.Size = new System.Drawing.Size(46, 46);
             this.i6.TabIndex = 96;
             this.i6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i6.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1232,12 +1370,14 @@
             // 
             // i5
             // 
+            this.i5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.i5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i5.Location = new System.Drawing.Point(236, 556);
+            this.i5.Location = new System.Drawing.Point(236, 549);
             this.i5.Margin = new System.Windows.Forms.Padding(2);
             this.i5.Name = "i5";
-            this.i5.Size = new System.Drawing.Size(49, 53);
+            this.i5.Size = new System.Drawing.Size(46, 46);
             this.i5.TabIndex = 95;
             this.i5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i5.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1245,12 +1385,14 @@
             // 
             // i4
             // 
+            this.i4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.i4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i4.Location = new System.Drawing.Point(183, 556);
+            this.i4.Location = new System.Drawing.Point(183, 549);
             this.i4.Margin = new System.Windows.Forms.Padding(2);
             this.i4.Name = "i4";
-            this.i4.Size = new System.Drawing.Size(49, 53);
+            this.i4.Size = new System.Drawing.Size(46, 46);
             this.i4.TabIndex = 94;
             this.i4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i4.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1258,12 +1400,14 @@
             // 
             // i1
             // 
+            this.i1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.i1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.i1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.i1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.i1.Location = new System.Drawing.Point(26, 556);
+            this.i1.Location = new System.Drawing.Point(26, 549);
             this.i1.Margin = new System.Windows.Forms.Padding(2);
             this.i1.Name = "i1";
-            this.i1.Size = new System.Drawing.Size(49, 53);
+            this.i1.Size = new System.Drawing.Size(46, 46);
             this.i1.TabIndex = 93;
             this.i1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i1.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1271,12 +1415,14 @@
             // 
             // h2
             // 
+            this.h2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.h2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h2.Location = new System.Drawing.Point(78, 500);
+            this.h2.Location = new System.Drawing.Point(78, 499);
             this.h2.Margin = new System.Windows.Forms.Padding(2);
             this.h2.Name = "h2";
-            this.h2.Size = new System.Drawing.Size(49, 53);
+            this.h2.Size = new System.Drawing.Size(46, 46);
             this.h2.TabIndex = 92;
             this.h2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h2.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1284,12 +1430,14 @@
             // 
             // h3
             // 
+            this.h3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.h3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h3.Location = new System.Drawing.Point(130, 500);
+            this.h3.Location = new System.Drawing.Point(130, 499);
             this.h3.Margin = new System.Windows.Forms.Padding(2);
             this.h3.Name = "h3";
-            this.h3.Size = new System.Drawing.Size(49, 53);
+            this.h3.Size = new System.Drawing.Size(46, 46);
             this.h3.TabIndex = 91;
             this.h3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h3.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1297,12 +1445,14 @@
             // 
             // h7
             // 
+            this.h7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.h7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h7.Location = new System.Drawing.Point(340, 500);
+            this.h7.Location = new System.Drawing.Point(340, 499);
             this.h7.Margin = new System.Windows.Forms.Padding(2);
             this.h7.Name = "h7";
-            this.h7.Size = new System.Drawing.Size(49, 53);
+            this.h7.Size = new System.Drawing.Size(46, 46);
             this.h7.TabIndex = 90;
             this.h7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h7.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1310,12 +1460,14 @@
             // 
             // h6
             // 
+            this.h6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.h6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h6.Location = new System.Drawing.Point(288, 500);
+            this.h6.Location = new System.Drawing.Point(288, 499);
             this.h6.Margin = new System.Windows.Forms.Padding(2);
             this.h6.Name = "h6";
-            this.h6.Size = new System.Drawing.Size(49, 53);
+            this.h6.Size = new System.Drawing.Size(46, 46);
             this.h6.TabIndex = 89;
             this.h6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h6.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1323,12 +1475,14 @@
             // 
             // h5
             // 
+            this.h5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.h5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h5.Location = new System.Drawing.Point(236, 500);
+            this.h5.Location = new System.Drawing.Point(236, 499);
             this.h5.Margin = new System.Windows.Forms.Padding(2);
             this.h5.Name = "h5";
-            this.h5.Size = new System.Drawing.Size(49, 53);
+            this.h5.Size = new System.Drawing.Size(46, 46);
             this.h5.TabIndex = 88;
             this.h5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h5.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1336,12 +1490,14 @@
             // 
             // h4
             // 
+            this.h4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.h4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h4.Location = new System.Drawing.Point(183, 500);
+            this.h4.Location = new System.Drawing.Point(183, 499);
             this.h4.Margin = new System.Windows.Forms.Padding(2);
             this.h4.Name = "h4";
-            this.h4.Size = new System.Drawing.Size(49, 53);
+            this.h4.Size = new System.Drawing.Size(46, 46);
             this.h4.TabIndex = 87;
             this.h4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h4.TextChanged += new System.EventHandler(this.fieldTextChanged);
@@ -1349,12 +1505,14 @@
             // 
             // h1
             // 
+            this.h1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.h1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.h1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.h1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h1.Location = new System.Drawing.Point(26, 500);
+            this.h1.Location = new System.Drawing.Point(26, 499);
             this.h1.Margin = new System.Windows.Forms.Padding(2);
             this.h1.Name = "h1";
-            this.h1.Size = new System.Drawing.Size(49, 53);
+            this.h1.Size = new System.Drawing.Size(46, 46);
             this.h1.TabIndex = 86;
             this.h1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h1.TextChanged += new System.EventHandler(this.fieldTextChanged);
