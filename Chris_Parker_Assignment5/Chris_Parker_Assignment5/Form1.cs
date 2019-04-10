@@ -8,27 +8,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Chris_Parker_Assignment5
 {
     public enum Difficulty { Easy, Medium, Hard };
+    
 
     public partial class Form1 : Form
     {
         private static List<Puzzle> puzzles;
         private static int[,] gameBoard; //Not sure yet if I'll need this...
+        private int timerValue = 0;
 
         public Form1()
         {
             InitializeComponent();
             puzzles = new List<Puzzle>();
+            puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));
             //ReadPuzzles();
         }
        
         //Still a work in progress 
         public void ReadPuzzles ()
         {
-            using (StreamReader inFile = new StreamReader("C:/Users/Chrips/source/repos/CSCI-473-504-Assign5/Chris_Parker_Assignment5/Chris_Parker_Assignment5/a5/directory.txt"))
+            using (StreamReader inFile = new StreamReader("a5/directory.txt"))
             {
                 string fileName = inFile.ReadLine(); //Read the first puzzle file
                 
@@ -309,7 +313,24 @@ namespace Chris_Parker_Assignment5
 
         private void timerStartStopClick(object sender, EventArgs e)
         {
+            
+            if (timerStartStop.Text == "Start")
+            {
+                timer1.Start();
+                timerStartStop.Text = "Stop";
 
+            }
+            else if (timerStartStop.Text == "Stop")
+            {
+                timer1.Stop();
+                timerStartStop.Text = "Start";
+            }
+        }
+
+        private void timerTick(object sender, EventArgs e)
+        {            
+            timerValue++;
+            timerBox.Text = timerValue.ToString(); 
         }
 
         private void fieldKeyPress(object sender, KeyPressEventArgs e)
@@ -336,6 +357,7 @@ namespace Chris_Parker_Assignment5
                 omega.Text = "";
             }
         }
+        
     } //End of Form1
 
     /* Class: Puzzle

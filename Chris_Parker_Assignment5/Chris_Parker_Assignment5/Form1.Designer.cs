@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.a1 = new System.Windows.Forms.TextBox();
             this.a4 = new System.Windows.Forms.TextBox();
@@ -124,6 +125,7 @@
             this.h5 = new System.Windows.Forms.TextBox();
             this.h4 = new System.Windows.Forms.TextBox();
             this.h1 = new System.Windows.Forms.TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.puzzleNum)).BeginInit();
             this.SuspendLayout();
             // 
@@ -858,7 +860,7 @@
             this.timerStartStop.Location = new System.Drawing.Point(628, 130);
             this.timerStartStop.Margin = new System.Windows.Forms.Padding(2);
             this.timerStartStop.Name = "timerStartStop";
-            this.timerStartStop.Size = new System.Drawing.Size(56, 19);
+            this.timerStartStop.Size = new System.Drawing.Size(56, 25);
             this.timerStartStop.TabIndex = 65;
             this.timerStartStop.Text = "Start";
             this.timerStartStop.UseVisualStyleBackColor = true;
@@ -1354,6 +1356,11 @@
             this.h1.TextChanged += new System.EventHandler(this.fieldTextChanged);
             this.h1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timerTick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1564,6 +1571,7 @@
         private System.Windows.Forms.TextBox h5;
         private System.Windows.Forms.TextBox h4;
         private System.Windows.Forms.TextBox h1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
