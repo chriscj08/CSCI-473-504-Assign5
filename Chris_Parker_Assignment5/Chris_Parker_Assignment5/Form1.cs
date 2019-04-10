@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Runtime.InteropServices;
 
 namespace Chris_Parker_Assignment5
 {
@@ -21,7 +22,8 @@ namespace Chris_Parker_Assignment5
         private static TextBox[,] easyMode;
         private static TextBox[,] medMode;
         private static TextBox[,] hardMode;
-        private int timerValue = 0;
+        private int timerValue = 0;        
+        
 
         public Form1()
         {
@@ -31,13 +33,17 @@ namespace Chris_Parker_Assignment5
             medMode = new TextBox[7, 7];
             hardMode = new TextBox[9, 9];
             puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));
-            ReadPuzzles();
+            //ReadPuzzles();
             BuildEasyMode();
             BuildMedMode();
             BuildHardMode();
             CreatePlayingField();
         }
-       
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.ActiveControl = label1;
+        }
         //Still a work in progress 
         public void ReadPuzzles ()
         {
@@ -357,8 +363,6 @@ namespace Chris_Parker_Assignment5
         private void Form1_Load(object sender, EventArgs e)
         {
 
-        }
-
         private void Generate_Puzzle(object sender, EventArgs e)
         {
             /*for (int i = 0; i < 9; i++)
@@ -366,9 +370,41 @@ namespace Chris_Parker_Assignment5
                 MessageBox.Show(puzzles[i].ToString());
             }*/
 
-            string diffSetting;
-            diffSetting = puzzleDiff.SelectedText;
-            MsgBox.Text = diffSetting;
+            string diffSetting = puzzleDiff.SelectedItem.ToString();
+
+            if(diffSetting=="Easy")
+            {
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.BackColor = Color.Black;
+                }
+                foreach (TextBox singleItem in easyMode)
+                {
+                    singleItem.BackColor = Color.White;
+                }
+            }
+            else if(diffSetting=="Medium")
+            {
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.BackColor = Color.Black;
+                }
+                foreach (TextBox singleItem in medMode)
+                {
+                    singleItem.BackColor = Color.White;
+                }
+            }
+            else if(diffSetting=="Hard")
+            {
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.BackColor = Color.Black;
+                }
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.BackColor = Color.White;
+                }
+            }           
 
         }
 
@@ -430,7 +466,24 @@ namespace Chris_Parker_Assignment5
             }
             */
         }
-        
+        }
+
+        [DllImport("user32.dll")]
+        static extern bool HideCaret(IntPtr hWnd);
+        //Method purpose of changing the backColor the text box that has focus
+        private void hasFocus(object sender, EventArgs e)
+        {             
+            TextBox omega = sender as TextBox;
+            omega.BackColor = Color.Aqua;
+            HideCaret(this.Handle);            
+        }
+
+        //Method purpose of changing the backColor the text box that nolonger has focus
+        private void lostFocus(object sender, EventArgs e)
+        {
+            TextBox omega = sender as TextBox;
+            omega.BackColor = Color.White;
+        }
     } //End of Form1
 
     /* Class: Puzzle
