@@ -338,6 +338,7 @@
             // 
             // c3
             // 
+            this.c3.BackColor = System.Drawing.Color.DarkGray;
             this.c3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c3.Location = new System.Drawing.Point(130, 216);
@@ -351,6 +352,7 @@
             // 
             // c7
             // 
+            this.c7.BackColor = System.Drawing.Color.DarkGray;
             this.c7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.c7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.c7.Location = new System.Drawing.Point(340, 216);
@@ -702,6 +704,7 @@
             // 
             // g3
             // 
+            this.g3.BackColor = System.Drawing.Color.DarkGray;
             this.g3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g3.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.g3.Location = new System.Drawing.Point(130, 443);
@@ -715,6 +718,7 @@
             // 
             // g7
             // 
+            this.g7.BackColor = System.Drawing.Color.DarkGray;
             this.g7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.g7.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.g7.Location = new System.Drawing.Point(340, 443);
