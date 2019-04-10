@@ -19,13 +19,17 @@ namespace Chris_Parker_Assignment5
     {
         private static List<Puzzle> puzzles;
         private static int[,] gameBoard; //Not sure yet if I'll need this...
-        private int timerValue = 0;
+        private int timerValue = 0;               
+          
 
         public Form1()
         {
             InitializeComponent();
             puzzles = new List<Puzzle>();
-            puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));
+            puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));            
+            List<TextBox> easyBoard = new List<TextBox>();
+            TextBox[,] easyField = new TextBox[5,5];                   
+            easyBoard.Add(c3); 
             //ReadPuzzles();
         }
        
