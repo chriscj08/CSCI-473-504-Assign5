@@ -453,6 +453,17 @@ namespace Chris_Parker_Assignment5
             {
                 omega.Text = "";
             }
+        }
+
+        [DllImport("user32.dll")]
+        static extern bool HideCaret(IntPtr hWnd);
+        //Method purpose of changing the backColor the text box that has focus
+        private void hasFocus(object sender, EventArgs e)
+        {             
+            TextBox omega = sender as TextBox;
+            omega.BackColor = Color.Aqua;
+            HideCaret(this.Handle);            
+        }
             
             
             /*for (int i = 0; i < 5; i++)
@@ -465,17 +476,6 @@ namespace Chris_Parker_Assignment5
                 }
             }
             */
-        }
-        }
-
-        [DllImport("user32.dll")]
-        static extern bool HideCaret(IntPtr hWnd);
-        //Method purpose of changing the backColor the text box that has focus
-        private void hasFocus(object sender, EventArgs e)
-        {             
-            TextBox omega = sender as TextBox;
-            omega.BackColor = Color.Aqua;
-            HideCaret(this.Handle);            
         }
 
         //Method purpose of changing the backColor the text box that nolonger has focus
