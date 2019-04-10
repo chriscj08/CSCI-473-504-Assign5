@@ -154,7 +154,9 @@
             this.a1.TabIndex = 1;
             this.a1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a1.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.a1.Enter += new System.EventHandler(this.hasFocus);
             this.a1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.a1.Leave += new System.EventHandler(this.lostFocus);
             // 
             // a4
             // 
@@ -169,7 +171,9 @@
             this.a4.TabIndex = 2;
             this.a4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a4.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.a4.Enter += new System.EventHandler(this.hasFocus);
             this.a4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.a4.Leave += new System.EventHandler(this.lostFocus);
             // 
             // a5
             // 
@@ -184,7 +188,9 @@
             this.a5.TabIndex = 4;
             this.a5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a5.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.a5.Enter += new System.EventHandler(this.hasFocus);
             this.a5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.a5.Leave += new System.EventHandler(this.lostFocus);
             // 
             // a6
             // 
@@ -199,7 +205,9 @@
             this.a6.TabIndex = 5;
             this.a6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a6.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.a6.Enter += new System.EventHandler(this.hasFocus);
             this.a6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.a6.Leave += new System.EventHandler(this.lostFocus);
             // 
             // a7
             // 
@@ -214,7 +222,9 @@
             this.a7.TabIndex = 6;
             this.a7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a7.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.a7.Enter += new System.EventHandler(this.hasFocus);
             this.a7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.a7.Leave += new System.EventHandler(this.lostFocus);
             // 
             // a3
             // 
@@ -229,7 +239,9 @@
             this.a3.TabIndex = 7;
             this.a3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a3.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.a3.Enter += new System.EventHandler(this.hasFocus);
             this.a3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.a3.Leave += new System.EventHandler(this.lostFocus);
             // 
             // a2
             // 
@@ -244,7 +256,9 @@
             this.a2.TabIndex = 8;
             this.a2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a2.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.a2.Enter += new System.EventHandler(this.hasFocus);
             this.a2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.a2.Leave += new System.EventHandler(this.lostFocus);
             // 
             // d2
             // 
@@ -259,7 +273,9 @@
             this.d2.TabIndex = 16;
             this.d2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d2.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.d2.Enter += new System.EventHandler(this.hasFocus);
             this.d2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.d2.Leave += new System.EventHandler(this.lostFocus);
             // 
             // d3
             // 
@@ -274,7 +290,9 @@
             this.d3.TabIndex = 15;
             this.d3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d3.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.d3.Enter += new System.EventHandler(this.hasFocus);
             this.d3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.d3.Leave += new System.EventHandler(this.lostFocus);
             // 
             // d7
             // 
@@ -289,7 +307,9 @@
             this.d7.TabIndex = 14;
             this.d7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d7.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.d7.Enter += new System.EventHandler(this.hasFocus);
             this.d7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.d7.Leave += new System.EventHandler(this.lostFocus);
             // 
             // d6
             // 
@@ -304,7 +324,9 @@
             this.d6.TabIndex = 13;
             this.d6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d6.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.d6.Enter += new System.EventHandler(this.hasFocus);
             this.d6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.d6.Leave += new System.EventHandler(this.lostFocus);
             // 
             // d5
             // 
@@ -319,7 +341,9 @@
             this.d5.TabIndex = 12;
             this.d5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d5.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.d5.Enter += new System.EventHandler(this.hasFocus);
             this.d5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.d5.Leave += new System.EventHandler(this.lostFocus);
             // 
             // d4
             // 
@@ -334,7 +358,9 @@
             this.d4.TabIndex = 10;
             this.d4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d4.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.d4.Enter += new System.EventHandler(this.hasFocus);
             this.d4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.d4.Leave += new System.EventHandler(this.lostFocus);
             // 
             // d1
             // 
@@ -349,7 +375,9 @@
             this.d1.TabIndex = 9;
             this.d1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d1.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.d1.Enter += new System.EventHandler(this.hasFocus);
             this.d1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.d1.Leave += new System.EventHandler(this.lostFocus);
             // 
             // c2
             // 
@@ -364,7 +392,9 @@
             this.c2.TabIndex = 24;
             this.c2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c2.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.c2.Enter += new System.EventHandler(this.hasFocus);
             this.c2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.c2.Leave += new System.EventHandler(this.lostFocus);
             // 
             // c3
             // 
@@ -379,7 +409,9 @@
             this.c3.TabIndex = 23;
             this.c3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c3.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.c3.Enter += new System.EventHandler(this.hasFocus);
             this.c3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.c3.Leave += new System.EventHandler(this.lostFocus);
             // 
             // c7
             // 
@@ -394,7 +426,9 @@
             this.c7.TabIndex = 22;
             this.c7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c7.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.c7.Enter += new System.EventHandler(this.hasFocus);
             this.c7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.c7.Leave += new System.EventHandler(this.lostFocus);
             // 
             // c6
             // 
@@ -409,7 +443,9 @@
             this.c6.TabIndex = 21;
             this.c6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c6.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.c6.Enter += new System.EventHandler(this.hasFocus);
             this.c6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.c6.Leave += new System.EventHandler(this.lostFocus);
             // 
             // c5
             // 
@@ -424,7 +460,9 @@
             this.c5.TabIndex = 20;
             this.c5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c5.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.c5.Enter += new System.EventHandler(this.hasFocus);
             this.c5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.c5.Leave += new System.EventHandler(this.lostFocus);
             // 
             // c4
             // 
@@ -439,7 +477,9 @@
             this.c4.TabIndex = 18;
             this.c4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c4.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.c4.Enter += new System.EventHandler(this.hasFocus);
             this.c4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.c4.Leave += new System.EventHandler(this.lostFocus);
             // 
             // c1
             // 
@@ -454,7 +494,9 @@
             this.c1.TabIndex = 17;
             this.c1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c1.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.c1.Enter += new System.EventHandler(this.hasFocus);
             this.c1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.c1.Leave += new System.EventHandler(this.lostFocus);
             // 
             // b2
             // 
@@ -469,7 +511,9 @@
             this.b2.TabIndex = 32;
             this.b2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b2.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.b2.Enter += new System.EventHandler(this.hasFocus);
             this.b2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.b2.Leave += new System.EventHandler(this.lostFocus);
             // 
             // b3
             // 
@@ -484,7 +528,9 @@
             this.b3.TabIndex = 31;
             this.b3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b3.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.b3.Enter += new System.EventHandler(this.hasFocus);
             this.b3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.b3.Leave += new System.EventHandler(this.lostFocus);
             // 
             // b7
             // 
@@ -499,7 +545,9 @@
             this.b7.TabIndex = 30;
             this.b7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b7.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.b7.Enter += new System.EventHandler(this.hasFocus);
             this.b7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.b7.Leave += new System.EventHandler(this.lostFocus);
             // 
             // b6
             // 
@@ -514,7 +562,9 @@
             this.b6.TabIndex = 29;
             this.b6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b6.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.b6.Enter += new System.EventHandler(this.hasFocus);
             this.b6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.b6.Leave += new System.EventHandler(this.lostFocus);
             // 
             // b5
             // 
@@ -529,7 +579,9 @@
             this.b5.TabIndex = 28;
             this.b5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b5.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.b5.Enter += new System.EventHandler(this.hasFocus);
             this.b5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.b5.Leave += new System.EventHandler(this.lostFocus);
             // 
             // b4
             // 
@@ -544,7 +596,9 @@
             this.b4.TabIndex = 26;
             this.b4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b4.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.b4.Enter += new System.EventHandler(this.hasFocus);
             this.b4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.b4.Leave += new System.EventHandler(this.lostFocus);
             // 
             // b1
             // 
@@ -559,7 +613,9 @@
             this.b1.TabIndex = 25;
             this.b1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b1.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.b1.Enter += new System.EventHandler(this.hasFocus);
             this.b1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.b1.Leave += new System.EventHandler(this.lostFocus);
             // 
             // e2
             // 
@@ -574,7 +630,9 @@
             this.e2.TabIndex = 40;
             this.e2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e2.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.e2.Enter += new System.EventHandler(this.hasFocus);
             this.e2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.e2.Leave += new System.EventHandler(this.lostFocus);
             // 
             // e3
             // 
@@ -589,7 +647,9 @@
             this.e3.TabIndex = 39;
             this.e3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e3.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.e3.Enter += new System.EventHandler(this.hasFocus);
             this.e3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.e3.Leave += new System.EventHandler(this.lostFocus);
             // 
             // e7
             // 
@@ -604,7 +664,9 @@
             this.e7.TabIndex = 38;
             this.e7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e7.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.e7.Enter += new System.EventHandler(this.hasFocus);
             this.e7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.e7.Leave += new System.EventHandler(this.lostFocus);
             // 
             // e6
             // 
@@ -619,7 +681,9 @@
             this.e6.TabIndex = 37;
             this.e6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e6.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.e6.Enter += new System.EventHandler(this.hasFocus);
             this.e6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.e6.Leave += new System.EventHandler(this.lostFocus);
             // 
             // e5
             // 
@@ -634,7 +698,9 @@
             this.e5.TabIndex = 36;
             this.e5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e5.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.e5.Enter += new System.EventHandler(this.hasFocus);
             this.e5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.e5.Leave += new System.EventHandler(this.lostFocus);
             // 
             // e4
             // 
@@ -649,7 +715,9 @@
             this.e4.TabIndex = 34;
             this.e4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e4.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.e4.Enter += new System.EventHandler(this.hasFocus);
             this.e4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.e4.Leave += new System.EventHandler(this.lostFocus);
             // 
             // e1
             // 
@@ -664,7 +732,9 @@
             this.e1.TabIndex = 33;
             this.e1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e1.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.e1.Enter += new System.EventHandler(this.hasFocus);
             this.e1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.e1.Leave += new System.EventHandler(this.lostFocus);
             // 
             // f2
             // 
@@ -679,7 +749,9 @@
             this.f2.TabIndex = 48;
             this.f2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f2.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.f2.Enter += new System.EventHandler(this.hasFocus);
             this.f2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.f2.Leave += new System.EventHandler(this.lostFocus);
             // 
             // f3
             // 
@@ -694,7 +766,9 @@
             this.f3.TabIndex = 47;
             this.f3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f3.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.f3.Enter += new System.EventHandler(this.hasFocus);
             this.f3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.f3.Leave += new System.EventHandler(this.lostFocus);
             // 
             // f7
             // 
@@ -709,7 +783,9 @@
             this.f7.TabIndex = 46;
             this.f7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f7.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.f7.Enter += new System.EventHandler(this.hasFocus);
             this.f7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.f7.Leave += new System.EventHandler(this.lostFocus);
             // 
             // f6
             // 
@@ -724,7 +800,9 @@
             this.f6.TabIndex = 45;
             this.f6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f6.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.f6.Enter += new System.EventHandler(this.hasFocus);
             this.f6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.f6.Leave += new System.EventHandler(this.lostFocus);
             // 
             // f5
             // 
@@ -739,7 +817,9 @@
             this.f5.TabIndex = 44;
             this.f5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f5.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.f5.Enter += new System.EventHandler(this.hasFocus);
             this.f5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.f5.Leave += new System.EventHandler(this.lostFocus);
             // 
             // f4
             // 
@@ -754,7 +834,9 @@
             this.f4.TabIndex = 42;
             this.f4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f4.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.f4.Enter += new System.EventHandler(this.hasFocus);
             this.f4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.f4.Leave += new System.EventHandler(this.lostFocus);
             // 
             // f1
             // 
@@ -769,7 +851,9 @@
             this.f1.TabIndex = 41;
             this.f1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f1.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.f1.Enter += new System.EventHandler(this.hasFocus);
             this.f1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.f1.Leave += new System.EventHandler(this.lostFocus);
             // 
             // g2
             // 
@@ -784,7 +868,9 @@
             this.g2.TabIndex = 56;
             this.g2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g2.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.g2.Enter += new System.EventHandler(this.hasFocus);
             this.g2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.g2.Leave += new System.EventHandler(this.lostFocus);
             // 
             // g3
             // 
@@ -799,7 +885,9 @@
             this.g3.TabIndex = 55;
             this.g3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g3.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.g3.Enter += new System.EventHandler(this.hasFocus);
             this.g3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.g3.Leave += new System.EventHandler(this.lostFocus);
             // 
             // g7
             // 
@@ -814,7 +902,9 @@
             this.g7.TabIndex = 54;
             this.g7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g7.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.g7.Enter += new System.EventHandler(this.hasFocus);
             this.g7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.g7.Leave += new System.EventHandler(this.lostFocus);
             // 
             // g6
             // 
@@ -829,7 +919,9 @@
             this.g6.TabIndex = 53;
             this.g6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g6.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.g6.Enter += new System.EventHandler(this.hasFocus);
             this.g6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.g6.Leave += new System.EventHandler(this.lostFocus);
             // 
             // g5
             // 
@@ -844,7 +936,9 @@
             this.g5.TabIndex = 52;
             this.g5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g5.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.g5.Enter += new System.EventHandler(this.hasFocus);
             this.g5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.g5.Leave += new System.EventHandler(this.lostFocus);
             // 
             // g4
             // 
@@ -859,7 +953,9 @@
             this.g4.TabIndex = 50;
             this.g4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g4.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.g4.Enter += new System.EventHandler(this.hasFocus);
             this.g4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.g4.Leave += new System.EventHandler(this.lostFocus);
             // 
             // g1
             // 
@@ -874,7 +970,9 @@
             this.g1.TabIndex = 49;
             this.g1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g1.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.g1.Enter += new System.EventHandler(this.hasFocus);
             this.g1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.g1.Leave += new System.EventHandler(this.lostFocus);
             // 
             // MsgBox
             // 
@@ -1051,7 +1149,9 @@
             this.g9.TabIndex = 85;
             this.g9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g9.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.g9.Enter += new System.EventHandler(this.hasFocus);
             this.g9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.g9.Leave += new System.EventHandler(this.lostFocus);
             // 
             // g8
             // 
@@ -1066,7 +1166,9 @@
             this.g8.TabIndex = 84;
             this.g8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.g8.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.g8.Enter += new System.EventHandler(this.hasFocus);
             this.g8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.g8.Leave += new System.EventHandler(this.lostFocus);
             // 
             // f9
             // 
@@ -1081,7 +1183,9 @@
             this.f9.TabIndex = 83;
             this.f9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f9.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.f9.Enter += new System.EventHandler(this.hasFocus);
             this.f9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.f9.Leave += new System.EventHandler(this.lostFocus);
             // 
             // f8
             // 
@@ -1096,7 +1200,9 @@
             this.f8.TabIndex = 82;
             this.f8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.f8.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.f8.Enter += new System.EventHandler(this.hasFocus);
             this.f8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.f8.Leave += new System.EventHandler(this.lostFocus);
             // 
             // e9
             // 
@@ -1111,7 +1217,9 @@
             this.e9.TabIndex = 81;
             this.e9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e9.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.e9.Enter += new System.EventHandler(this.hasFocus);
             this.e9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.e9.Leave += new System.EventHandler(this.lostFocus);
             // 
             // e8
             // 
@@ -1126,7 +1234,9 @@
             this.e8.TabIndex = 80;
             this.e8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.e8.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.e8.Enter += new System.EventHandler(this.hasFocus);
             this.e8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.e8.Leave += new System.EventHandler(this.lostFocus);
             // 
             // b9
             // 
@@ -1141,7 +1251,9 @@
             this.b9.TabIndex = 79;
             this.b9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b9.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.b9.Enter += new System.EventHandler(this.hasFocus);
             this.b9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.b9.Leave += new System.EventHandler(this.lostFocus);
             // 
             // b8
             // 
@@ -1156,7 +1268,9 @@
             this.b8.TabIndex = 78;
             this.b8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.b8.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.b8.Enter += new System.EventHandler(this.hasFocus);
             this.b8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.b8.Leave += new System.EventHandler(this.lostFocus);
             // 
             // c9
             // 
@@ -1171,7 +1285,9 @@
             this.c9.TabIndex = 77;
             this.c9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c9.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.c9.Enter += new System.EventHandler(this.hasFocus);
             this.c9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.c9.Leave += new System.EventHandler(this.lostFocus);
             // 
             // c8
             // 
@@ -1186,7 +1302,9 @@
             this.c8.TabIndex = 76;
             this.c8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.c8.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.c8.Enter += new System.EventHandler(this.hasFocus);
             this.c8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.c8.Leave += new System.EventHandler(this.lostFocus);
             // 
             // d9
             // 
@@ -1201,7 +1319,9 @@
             this.d9.TabIndex = 75;
             this.d9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d9.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.d9.Enter += new System.EventHandler(this.hasFocus);
             this.d9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.d9.Leave += new System.EventHandler(this.lostFocus);
             // 
             // d8
             // 
@@ -1216,7 +1336,9 @@
             this.d8.TabIndex = 74;
             this.d8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.d8.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.d8.Enter += new System.EventHandler(this.hasFocus);
             this.d8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.d8.Leave += new System.EventHandler(this.lostFocus);
             // 
             // a9
             // 
@@ -1231,7 +1353,9 @@
             this.a9.TabIndex = 73;
             this.a9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a9.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.a9.Enter += new System.EventHandler(this.hasFocus);
             this.a9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.a9.Leave += new System.EventHandler(this.lostFocus);
             // 
             // a8
             // 
@@ -1246,7 +1370,9 @@
             this.a8.TabIndex = 72;
             this.a8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.a8.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.a8.Enter += new System.EventHandler(this.hasFocus);
             this.a8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.a8.Leave += new System.EventHandler(this.lostFocus);
             // 
             // i9
             // 
@@ -1261,7 +1387,9 @@
             this.i9.TabIndex = 103;
             this.i9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i9.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.i9.Enter += new System.EventHandler(this.hasFocus);
             this.i9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.i9.Leave += new System.EventHandler(this.lostFocus);
             // 
             // i8
             // 
@@ -1276,7 +1404,9 @@
             this.i8.TabIndex = 102;
             this.i8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i8.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.i8.Enter += new System.EventHandler(this.hasFocus);
             this.i8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.i8.Leave += new System.EventHandler(this.lostFocus);
             // 
             // h9
             // 
@@ -1291,7 +1421,9 @@
             this.h9.TabIndex = 101;
             this.h9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h9.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.h9.Enter += new System.EventHandler(this.hasFocus);
             this.h9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.h9.Leave += new System.EventHandler(this.lostFocus);
             // 
             // h8
             // 
@@ -1306,7 +1438,9 @@
             this.h8.TabIndex = 100;
             this.h8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h8.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.h8.Enter += new System.EventHandler(this.hasFocus);
             this.h8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.h8.Leave += new System.EventHandler(this.lostFocus);
             // 
             // i2
             // 
@@ -1321,7 +1455,9 @@
             this.i2.TabIndex = 99;
             this.i2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i2.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.i2.Enter += new System.EventHandler(this.hasFocus);
             this.i2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.i2.Leave += new System.EventHandler(this.lostFocus);
             // 
             // i3
             // 
@@ -1336,7 +1472,9 @@
             this.i3.TabIndex = 98;
             this.i3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i3.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.i3.Enter += new System.EventHandler(this.hasFocus);
             this.i3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.i3.Leave += new System.EventHandler(this.lostFocus);
             // 
             // i7
             // 
@@ -1351,7 +1489,9 @@
             this.i7.TabIndex = 97;
             this.i7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i7.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.i7.Enter += new System.EventHandler(this.hasFocus);
             this.i7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.i7.Leave += new System.EventHandler(this.lostFocus);
             // 
             // i6
             // 
@@ -1366,7 +1506,9 @@
             this.i6.TabIndex = 96;
             this.i6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i6.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.i6.Enter += new System.EventHandler(this.hasFocus);
             this.i6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.i6.Leave += new System.EventHandler(this.lostFocus);
             // 
             // i5
             // 
@@ -1381,7 +1523,9 @@
             this.i5.TabIndex = 95;
             this.i5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i5.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.i5.Enter += new System.EventHandler(this.hasFocus);
             this.i5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.i5.Leave += new System.EventHandler(this.lostFocus);
             // 
             // i4
             // 
@@ -1396,7 +1540,9 @@
             this.i4.TabIndex = 94;
             this.i4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i4.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.i4.Enter += new System.EventHandler(this.hasFocus);
             this.i4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.i4.Leave += new System.EventHandler(this.lostFocus);
             // 
             // i1
             // 
@@ -1411,7 +1557,9 @@
             this.i1.TabIndex = 93;
             this.i1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.i1.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.i1.Enter += new System.EventHandler(this.hasFocus);
             this.i1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.i1.Leave += new System.EventHandler(this.lostFocus);
             // 
             // h2
             // 
@@ -1426,7 +1574,9 @@
             this.h2.TabIndex = 92;
             this.h2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h2.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.h2.Enter += new System.EventHandler(this.hasFocus);
             this.h2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.h2.Leave += new System.EventHandler(this.lostFocus);
             // 
             // h3
             // 
@@ -1441,7 +1591,9 @@
             this.h3.TabIndex = 91;
             this.h3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h3.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.h3.Enter += new System.EventHandler(this.hasFocus);
             this.h3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.h3.Leave += new System.EventHandler(this.lostFocus);
             // 
             // h7
             // 
@@ -1456,7 +1608,9 @@
             this.h7.TabIndex = 90;
             this.h7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h7.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.h7.Enter += new System.EventHandler(this.hasFocus);
             this.h7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.h7.Leave += new System.EventHandler(this.lostFocus);
             // 
             // h6
             // 
@@ -1471,7 +1625,9 @@
             this.h6.TabIndex = 89;
             this.h6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h6.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.h6.Enter += new System.EventHandler(this.hasFocus);
             this.h6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.h6.Leave += new System.EventHandler(this.lostFocus);
             // 
             // h5
             // 
@@ -1486,7 +1642,9 @@
             this.h5.TabIndex = 88;
             this.h5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h5.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.h5.Enter += new System.EventHandler(this.hasFocus);
             this.h5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.h5.Leave += new System.EventHandler(this.lostFocus);
             // 
             // h4
             // 
@@ -1501,7 +1659,9 @@
             this.h4.TabIndex = 87;
             this.h4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h4.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.h4.Enter += new System.EventHandler(this.hasFocus);
             this.h4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.h4.Leave += new System.EventHandler(this.lostFocus);
             // 
             // h1
             // 
@@ -1516,7 +1676,9 @@
             this.h1.TabIndex = 86;
             this.h1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.h1.TextChanged += new System.EventHandler(this.fieldTextChanged);
+            this.h1.Enter += new System.EventHandler(this.hasFocus);
             this.h1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.fieldKeyPress);
+            this.h1.Leave += new System.EventHandler(this.lostFocus);
             // 
             // timer1
             // 

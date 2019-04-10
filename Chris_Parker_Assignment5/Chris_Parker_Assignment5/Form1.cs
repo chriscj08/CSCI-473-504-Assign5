@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Runtime.InteropServices;
 
 namespace Chris_Parker_Assignment5
 {
@@ -22,6 +23,7 @@ namespace Chris_Parker_Assignment5
         private static TextBox[,] medMode;
         private static TextBox[,] hardMode;
         private int timerValue = 0;        
+        
 
         public Form1()
         {
@@ -39,7 +41,7 @@ namespace Chris_Parker_Assignment5
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.ActiveControl = label1;
         }
         //Still a work in progress 
         public void ReadPuzzles ()
@@ -443,7 +445,23 @@ namespace Chris_Parker_Assignment5
                 omega.Text = "";
             }
         }
-        
+
+        [DllImport("user32.dll")]
+        static extern bool HideCaret(IntPtr hWnd);
+        //Method purpose of changing the backColor the text box that has focus
+        private void hasFocus(object sender, EventArgs e)
+        {             
+            TextBox omega = sender as TextBox;
+            omega.BackColor = Color.Aqua;
+            HideCaret(this.Handle);            
+        }
+
+        //Method purpose of changing the backColor the text box that nolonger has focus
+        private void lostFocus(object sender, EventArgs e)
+        {
+            TextBox omega = sender as TextBox;
+            omega.BackColor = Color.White;
+        }
     } //End of Form1
 
     /* Class: Puzzle
