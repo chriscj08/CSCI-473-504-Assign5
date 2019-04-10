@@ -23,6 +23,7 @@ namespace Chris_Parker_Assignment5
         private static TextBox[,] medMode;
         private static TextBox[,] hardMode;
         private int timerValue = 0;
+        private int k = 0;
 
 
         public Form1()
@@ -38,6 +39,7 @@ namespace Chris_Parker_Assignment5
             BuildMedMode();
             BuildHardMode();
             CreatePlayingField();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -442,6 +444,10 @@ namespace Chris_Parker_Assignment5
 
         private void fieldTextChanged(object sender, EventArgs e)
         {
+            
+            k++;
+
+
             TextBox omega = sender as TextBox;
 
             if (System.Text.RegularExpressions.Regex.IsMatch(omega.Text, "  ^ [1-9]"))
@@ -453,20 +459,46 @@ namespace Chris_Parker_Assignment5
             {
                 omega.Text = "";
             }
+
             if (omega.Text != "")
             {
+                int sum = 0;
+
+                //Change the puzzle in progress array based on user input
                 for (int i = 0; i < 5; i++)
                 {
                     for (int j = 0; j < 5; j++)
                     {
                         if (easyMode[i, j].Name == omega.Name)
                             puzzles[0][i, j] = Convert.ToInt32(omega.Text);
+                        sum += puzzles[0][i, j]; //calculate new sums for the rows
                     }
+                    puzzles[0][i, 3] = sum;
+                    easyMode[i, 3].Text = sum.ToString();
                 }
+
+                //Calculates new sums for the columns
+                for (int j = 0; j < 3; j++)
+                {
+                    sum = 0;
+
+                    for (int i = 0; i < 3; i++)
+                    {
+                        sum += puzzles[0][i, j];
+                    }
+                    puzzles[0][3, j] = sum;
+                }
+
+                for (int i = 0; i < 3; i++) //Get new diagonal sum
+                    puzzles[0][3, 3] += puzzles[0][i, i];
             }
 
-            MessageBox.Show(puzzles[0][0, 0].ToString());
-        }
+
+
+
+
+                // MessageBox.Show(puzzles[0][0, 0].ToString());
+            }
 
         [DllImport("user32.dll")]
         static extern bool HideCaret(IntPtr hWnd);
