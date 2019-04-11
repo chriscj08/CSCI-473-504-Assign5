@@ -435,7 +435,7 @@ namespace Chris_Parker_Assignment5
                 {
                     for (int j = 0; j < 9; j++)
                     {
-                        if (hardMode[i, j].Text != puzzles[index2][i, j].ToString())
+                        if (hardMode[i, j].Text != puzzles[index2][i, j].ToString() || hardMode[i, j].Text != "")
                         {
                             hardMode[i, j].Text = puzzles[index2][i, j].ToString();
                         }
@@ -525,6 +525,7 @@ namespace Chris_Parker_Assignment5
 
         public void CalcNewHardSums(TextBox omega, int index2)
         {
+            
             //Change the puzzle in progress array based on user input
             for (int i = 0; i < 7; i++)
             {
@@ -533,8 +534,10 @@ namespace Chris_Parker_Assignment5
                 for (int j = 0; j < 7; j++)
                 {
                     if (hardMode[i, j].Name == omega.Name)
+                    {
                         hardPuzzles[index2][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
 
+                    }
                     sum += hardPuzzles[index2][i, j]; //calculate new sums for the rows
 
                 }
@@ -557,7 +560,8 @@ namespace Chris_Parker_Assignment5
             hardPuzzles[index2][7, 7] = 0;
             for (int i = 0; i < 7; i++) //Get new diagonal sum
                 hardPuzzles[index2][7, 7] += hardPuzzles[index2][i, i];
-            switcher = false;
+            
+            
             CreatePlayingField(hardPuzzles, index2, diffSetting);
         }
 
@@ -660,7 +664,7 @@ namespace Chris_Parker_Assignment5
         {
             
             TextBox omega = sender as TextBox;
-            
+                        
             if (System.Text.RegularExpressions.Regex.IsMatch(omega.Text, "  ^ [1-9]"))
             {
                 omega.Text = "";
@@ -681,9 +685,10 @@ namespace Chris_Parker_Assignment5
                 CalcNewMedSums(omega, index);
             }
             //MessageBox.Show(k.ToString());
-            if (omega.Text != "" && diffSetting == "Hard" && hardPuzzleBuilt )
+            if (omega.Text != "" && diffSetting == "Hard")
             {
                 CalcNewHardSums(omega, index);
+               
             }
 
 
