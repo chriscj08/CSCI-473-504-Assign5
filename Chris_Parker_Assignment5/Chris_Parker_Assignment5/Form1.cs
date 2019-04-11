@@ -41,16 +41,12 @@ namespace Chris_Parker_Assignment5
             medMode = new TextBox[7, 7];
             hardMode = new TextBox[9, 9];
             switcher = false;
-            index = 0;
-            
+            index = 0;            
             diffSetting = "Easy";
-            puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));
-            ReadPuzzles();
+            puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));            
             BuildEasyMode();
             BuildMedMode();
-            BuildHardMode();
-            CreatePlayingField(easyPuzzles, 0, "Easy");
-            
+            BuildHardMode();                        
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -360,6 +356,53 @@ namespace Chris_Parker_Assignment5
             hardMode[7, 0] = h1; hardMode[7, 1] = h2; hardMode[7, 2] = h3; hardMode[7, 3] = h4; hardMode[7, 4] = h5; hardMode[7, 5] = h6; hardMode[7, 6] = h7; hardMode[7, 7] = h8; hardMode[7, 8] = h9;
             hardMode[8, 0] = i1; hardMode[8, 1] = i2; hardMode[8, 2] = i3; hardMode[8, 3] = i4; hardMode[8, 4] = i5; hardMode[8, 5] = i6; hardMode[8, 6] = i7; hardMode[8, 7] = i8; hardMode[8, 8] = i9;
         }
+
+        /* Method disableTextBoxes
+         * Purpose: Disables all textBoxes on the playing field
+         * The reasoning is so when generate puzzle is called.
+         * It can enable only the textboxes needed for that puzzle
+         * 
+         * */
+        public void disableTextBoxes()
+        {
+            foreach (TextBox singleItem in hardMode)
+            {
+                singleItem.Enabled = false;
+                singleItem.ForeColor = Color.White;
+            }
+            MsgBox.Text = "The values are hidden until you start the timer";
+        }
+
+        /* Method enableTextBoxes()
+         * Purpose: enable the textboxes that will be used for the program
+         * So the user can't click a box that is "Hidden" 
+         * */
+        public void enableTextBoxes()
+        {
+            //Gets the current difficulty setting
+            diffSetting = puzzleDiff.SelectedItem.ToString();
+            if (diffSetting == "Easy")
+            {
+                foreach (TextBox singleItem in easyMode)
+                {
+                    singleItem.Enabled = true;
+                }
+            }
+            else if (diffSetting == "Medium")
+            {
+                foreach (TextBox singleItem in medMode)
+                {
+                    singleItem.Enabled = true;
+                }
+            }
+            else
+            {
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.Enabled = true;
+                }
+            }
+        }
         //This method looks at the puzzle being played and allocates 
         //textboxes with the appropriate values
         public void CreatePlayingField(List<Puzzle> puzzles, int index2, string diffSetting2)
@@ -519,6 +562,10 @@ namespace Chris_Parker_Assignment5
 
         private void Generate_Puzzle(object sender, EventArgs e)
         {
+            ReadPuzzles();
+            CreatePlayingField(easyPuzzles, 0, "Easy");
+            disableTextBoxes();
+            enableTextBoxes();
             index = (int) puzzleNum.Value - 1;
             
             diffSetting = puzzleDiff.SelectedItem.ToString();
@@ -574,13 +621,23 @@ namespace Chris_Parker_Assignment5
             if (timerStartStop.Text == "Start")
             {
                 timer1.Start();
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.ForeColor = Color.Black;
+                }
                 timerStartStop.Text = "Stop";
+                MsgBox.Clear();
 
             }
             else if (timerStartStop.Text == "Stop")
             {
                 timer1.Stop();
+                foreach (TextBox singleItem in hardMode)
+                {
+                    singleItem.ForeColor = Color.White;
+                }
                 timerStartStop.Text = "Start";
+                MsgBox.Text = "The values are hidden until you start the timer";
             }
         }
 
@@ -609,7 +666,7 @@ namespace Chris_Parker_Assignment5
             {
                 omega.Text = "";
             }
-
+            
             if (omega.Text == "0")
             {
                 omega.Text = "";
@@ -639,7 +696,7 @@ namespace Chris_Parker_Assignment5
         private void hasFocus(object sender, EventArgs e)
         {
             TextBox omega = sender as TextBox;
-            omega.BackColor = Color.Aqua;
+            omega.BackColor = Color.Cyan;
             HideCaret(this.Handle);
         }
 
