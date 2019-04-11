@@ -18,7 +18,9 @@ namespace Chris_Parker_Assignment5
 
     public partial class Form1 : Form
     {
-        private static List<Puzzle> puzzles;
+        private static List<Puzzle> easyPuzzles;
+        private static List<Puzzle> medPuzzles;
+        private static List<Puzzle> hardPuzzles;
         private static TextBox[,] easyMode;
         private static TextBox[,] medMode;
         private static TextBox[,] hardMode;
@@ -30,7 +32,9 @@ namespace Chris_Parker_Assignment5
         public Form1()
         {
             InitializeComponent();
-            puzzles = new List<Puzzle>();
+            easyPuzzles = new List<Puzzle>();
+            medPuzzles = new List<Puzzle>();
+            hardPuzzles = new List<Puzzle>();
             easyMode = new TextBox[5, 5];
             medMode = new TextBox[7, 7];
             hardMode = new TextBox[9, 9];
@@ -39,7 +43,7 @@ namespace Chris_Parker_Assignment5
             BuildEasyMode();
             BuildMedMode();
             BuildHardMode();
-            CreatePlayingField();
+            CreatePlayingField(easyPuzzles, 0, "Easy");
             
         }
 
@@ -143,7 +147,7 @@ namespace Chris_Parker_Assignment5
                                     tempArray[i, 4] = tempArray2[i, 4];
 
                                 Puzzle tempPuzzle = new Puzzle(tempArray, tempArray, tempArray2, 0);
-                                puzzles.Add(tempPuzzle);
+                                easyPuzzles.Add(tempPuzzle);
 
                             }
                             else if (input.Length == 5)//Medium puzzle
@@ -224,7 +228,7 @@ namespace Chris_Parker_Assignment5
                                     tempArray[i, 6] = tempArray2[i, 6];
 
                                 Puzzle tempPuzzle = new Puzzle(tempArray, tempArray, tempArray2, (Difficulty)1);
-                                puzzles.Add(tempPuzzle);
+                                medPuzzles.Add(tempPuzzle);
                             }
                             else if (input.Length == 7)//Hard puzzle
                             {
@@ -303,7 +307,7 @@ namespace Chris_Parker_Assignment5
                                     tempArray[i, 8] = tempArray2[i, 8];
 
                                 Puzzle tempPuzzle = new Puzzle(tempArray, tempArray, tempArray2, (Difficulty)2);
-                                puzzles.Add(tempPuzzle);
+                                hardPuzzles.Add(tempPuzzle);
                             }
 
                             sum = 0;
@@ -352,28 +356,118 @@ namespace Chris_Parker_Assignment5
         }
         //This method looks at the puzzle being played and allocates 
         //textboxes with the appropriate values
-        public void CreatePlayingField()
+        public void CreatePlayingField(List<Puzzle> puzzles, int index, string diffSetting)
         {
-            
-            for (int i = 0; i < 5; i++)
+
+            if (diffSetting == "Easy")
             {
-                for(int j = 0; j < 5; j++)
+                for (int i = 0; i < 5; i++)
                 {
-                    easyMode[i, j].Text = puzzles[0][i, j].ToString();
-                    MessageBox.Show(easyMode[i, j].Name + ": " + puzzles[0][i, j].ToString());
+                    for (int j = 0; j < 5; j++)
+                    {
+                        easyMode[i, j].Text = puzzles[index][i, j].ToString();
+                    }
                 }
             }
-             
+            else if (diffSetting == "Medium")
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    for (int j = 0; j < 7; j++)
+                    {
+                        medMode[i, j].Text = puzzles[index][i, j].ToString();
+                    }
+                }
+            }
+            if (diffSetting == "Hard")
+            {
+                for (int i = 0; i < 9; i++)
+                {
+                    for (int j = 0; j < 9; j++)
+                    {
+                        hardMode[i, j].Text = puzzles[index][i, j].ToString();
+                    }
+                }
+            }
+
+        }
+        /*
+        public void CalcNewEasySums(TextBox omega)
+        {
+            //Change the puzzle in progress array based on user input
+            for (int i = 0; i < 3; i++)
+            {
+                sum = 0;
+
+                for (int j = 0; j < 3; j++)
+                {
+                    if (easyMode[i, j].Name == omega.Name)
+                        puzzles[0][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
+
+                    sum += puzzles[0][i, j]; //calculate new sums for the rows
+
+                }
+
+                puzzles[0][i, 3] = sum;
+            }
+
+            //Calculates new sums for the columns
+            for (int j = 0; j < 3; j++)
+            {
+                sum = 0;
+
+                for (int i = 0; i < 3; i++)
+                {
+                    sum += puzzles[0][i, j];
+                }
+                puzzles[0][3, j] = sum;
+            }
+
+            puzzles[0][3, 3] = 0;
+            for (int i = 0; i < 3; i++) //Get new diagonal sum
+                puzzles[0][3, 3] += puzzles[0][i, i];
         }
 
+        public void CalcNewMedSums(TextBox omega)
+        {
+            //Change the puzzle in progress array based on user input
+            for (int i = 0; i < 5; i++)
+            {
+                sum = 0;
 
+                for (int j = 0; j < 5; j++)
+                {
+                    if (medMode[i, j].Name == omega.Name)
+                        puzzles[0][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
+
+                    sum += puzzles[0][i, j]; //calculate new sums for the rows
+
+                }
+
+                puzzles[0][i, 5] = sum;
+            }
+
+            //Calculates new sums for the columns
+            for (int j = 0; j < 5; j++)
+            {
+                sum = 0;
+
+                for (int i = 0; i < 5; i++)
+                {
+                    sum += puzzles[0][i, j];
+                }
+                puzzles[0][5, j] = sum;
+            }
+
+            puzzles[0][5, 5] = 0;
+            for (int i = 0; i < 5; i++) //Get new diagonal sum
+                puzzles[0][5, 5] += puzzles[0][i, i];
+        }
+        */
         private void Generate_Puzzle(object sender, EventArgs e)
         {
-            /*for (int i = 0; i < 9; i++)
-            {
-                MessageBox.Show(puzzles[i].ToString());
-            }*/
-
+            int index = (int) puzzleNum.Value - 1;
+            
             string diffSetting = puzzleDiff.SelectedItem.ToString();
 
             if (diffSetting == "Easy")
@@ -386,6 +480,8 @@ namespace Chris_Parker_Assignment5
                 {
                     singleItem.BackColor = Color.White;
                 }
+
+                CreatePlayingField(easyPuzzles, index, diffSetting);
             }
             else if (diffSetting == "Medium")
             {
@@ -397,6 +493,8 @@ namespace Chris_Parker_Assignment5
                 {
                     singleItem.BackColor = Color.White;
                 }
+
+                CreatePlayingField(medPuzzles, index, diffSetting);
             }
             else if (diffSetting == "Hard")
             {
@@ -408,6 +506,8 @@ namespace Chris_Parker_Assignment5
                 {
                     singleItem.BackColor = Color.White;
                 }
+
+                CreatePlayingField(hardPuzzles, index, diffSetting);
             }
 
         }
@@ -447,9 +547,6 @@ namespace Chris_Parker_Assignment5
         private void fieldTextChanged(object sender, EventArgs e)
         {
             
-            k++;
-
-
             TextBox omega = sender as TextBox;
 
             if (System.Text.RegularExpressions.Regex.IsMatch(omega.Text, "  ^ [1-9]"))
@@ -464,39 +561,8 @@ namespace Chris_Parker_Assignment5
             
             if (omega.Text != "")
             {
-                sum = 0;
-
-                //Change the puzzle in progress array based on user input
-                for (int i = 0; i < 3; i++)
-                {
-                    for (int j = 0; j < 3; j++)
-                    {
-                        if (easyMode[i, j].Name == omega.Name)
-                            puzzles[0][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
-                        
-                        sum += puzzles[0][i, j]; //calculate new sums for the rows
-                       // MessageBox.Show(puzzles[0].ToString());
-                    }
-                    
-                    puzzles[0][i, 3] = sum;                  
-                }
-                /*
-                //Calculates new sums for the columns
-                for (int j = 0; j < 3; j++)
-                {
-                    sum = 0;
-
-                    for (int i = 0; i < 3; i++)
-                    {
-                        sum += puzzles[0][i, j];
-                    }
-                    puzzles[0][3, j] = sum;
-                }
-
-                for (int i = 0; i < 3; i++) //Get new diagonal sum
-                    puzzles[0][3, 3] += puzzles[0][i, i];
-                    */
-          }
+              //  CalcNewEasySums(omega);   
+            }
 
             
             
@@ -526,10 +592,7 @@ namespace Chris_Parker_Assignment5
             omega.BackColor = Color.White;
         }
 
-        private void TestClick(object sender, EventArgs e)
-        {
-            CreatePlayingField();
-        }
+   
     } //End of Form1
 
     /* Class: Puzzle
