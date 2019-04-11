@@ -25,7 +25,9 @@ namespace Chris_Parker_Assignment5
         private static TextBox[,] medMode;
         private static TextBox[,] hardMode;
         private int timerValue = 0;
-        private int k = 0;
+        private static int index;
+        private static bool switcher;
+        private static string diffSetting;
         private static int sum;
 
 
@@ -38,6 +40,10 @@ namespace Chris_Parker_Assignment5
             easyMode = new TextBox[5, 5];
             medMode = new TextBox[7, 7];
             hardMode = new TextBox[9, 9];
+            switcher = false;
+            index = 0;
+            
+            diffSetting = "Easy";
             puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));
             ReadPuzzles();
             BuildEasyMode();
@@ -356,43 +362,48 @@ namespace Chris_Parker_Assignment5
         }
         //This method looks at the puzzle being played and allocates 
         //textboxes with the appropriate values
-        public void CreatePlayingField(List<Puzzle> puzzles, int index, string diffSetting)
+        public void CreatePlayingField(List<Puzzle> puzzles, int index2, string diffSetting2)
         {
 
-            if (diffSetting == "Easy")
+            if (diffSetting2 == "Easy")
             {
                 for (int i = 0; i < 5; i++)
                 {
                     for (int j = 0; j < 5; j++)
                     {
-                        easyMode[i, j].Text = puzzles[index][i, j].ToString();
+                        easyMode[i, j].Text = puzzles[index2][i, j].ToString();
                     }
                 }
             }
-            else if (diffSetting == "Medium")
+            else if (diffSetting2 == "Medium")
             {
                 for (int i = 0; i < 7; i++)
                 {
                     for (int j = 0; j < 7; j++)
                     {
-                        medMode[i, j].Text = puzzles[index][i, j].ToString();
+                        medMode[i, j].Text = puzzles[index2][i, j].ToString();
                     }
                 }
             }
-            if (diffSetting == "Hard")
+            if (diffSetting2 == "Hard")
             {
                 for (int i = 0; i < 9; i++)
                 {
                     for (int j = 0; j < 9; j++)
                     {
-                        hardMode[i, j].Text = puzzles[index][i, j].ToString();
+                        if (hardMode[i, j].Text != puzzles[index2][i, j].ToString())
+                        {
+                            hardMode[i, j].Text = puzzles[index2][i, j].ToString();
+                        }
                     }
                 }
+                
+
             }
 
         }
-        /*
-        public void CalcNewEasySums(TextBox omega)
+        
+        public void CalcNewEasySums(TextBox omega, int index2)
         {
             //Change the puzzle in progress array based on user input
             for (int i = 0; i < 3; i++)
@@ -402,13 +413,13 @@ namespace Chris_Parker_Assignment5
                 for (int j = 0; j < 3; j++)
                 {
                     if (easyMode[i, j].Name == omega.Name)
-                        puzzles[0][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
+                        easyPuzzles[index2][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
 
-                    sum += puzzles[0][i, j]; //calculate new sums for the rows
+                    sum += easyPuzzles[index2][i, j]; //calculate new sums for the rows
 
                 }
 
-                puzzles[0][i, 3] = sum;
+                easyPuzzles[index2][i, 3] = sum;
             }
 
             //Calculates new sums for the columns
@@ -418,17 +429,19 @@ namespace Chris_Parker_Assignment5
 
                 for (int i = 0; i < 3; i++)
                 {
-                    sum += puzzles[0][i, j];
+                    sum += easyPuzzles[index2][i, j];
                 }
-                puzzles[0][3, j] = sum;
+                easyPuzzles[index2][3, j] = sum;
             }
 
-            puzzles[0][3, 3] = 0;
+            easyPuzzles[index2][3, 3] = 0;
             for (int i = 0; i < 3; i++) //Get new diagonal sum
-                puzzles[0][3, 3] += puzzles[0][i, i];
+                easyPuzzles[index2][3, 3] += easyPuzzles[index2][i, i];
+
+            CreatePlayingField(easyPuzzles, index2, diffSetting);
         }
 
-        public void CalcNewMedSums(TextBox omega)
+        public void CalcNewMedSums(TextBox omega, int index2)
         {
             //Change the puzzle in progress array based on user input
             for (int i = 0; i < 5; i++)
@@ -438,13 +451,13 @@ namespace Chris_Parker_Assignment5
                 for (int j = 0; j < 5; j++)
                 {
                     if (medMode[i, j].Name == omega.Name)
-                        puzzles[0][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
+                        medPuzzles[index2][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
 
-                    sum += puzzles[0][i, j]; //calculate new sums for the rows
+                    sum += medPuzzles[index2][i, j]; //calculate new sums for the rows
 
                 }
 
-                puzzles[0][i, 5] = sum;
+                medPuzzles[index2][i, 5] = sum;
             }
 
             //Calculates new sums for the columns
@@ -454,21 +467,61 @@ namespace Chris_Parker_Assignment5
 
                 for (int i = 0; i < 5; i++)
                 {
-                    sum += puzzles[0][i, j];
+                    sum += medPuzzles[index2][i, j];
                 }
-                puzzles[0][5, j] = sum;
+                medPuzzles[index2][5, j] = sum;
             }
 
-            puzzles[0][5, 5] = 0;
+            medPuzzles[index2][5, 5] = 0;
             for (int i = 0; i < 5; i++) //Get new diagonal sum
-                puzzles[0][5, 5] += puzzles[0][i, i];
+                medPuzzles[index2][5, 5] += medPuzzles[index2][i, i];
+
+            CreatePlayingField(medPuzzles, index2, diffSetting);
         }
-        */
+
+        public void CalcNewHardSums(TextBox omega, int index2)
+        {
+            //Change the puzzle in progress array based on user input
+            for (int i = 0; i < 7; i++)
+            {
+                sum = 0;
+
+                for (int j = 0; j < 7; j++)
+                {
+                    if (hardMode[i, j].Name == omega.Name)
+                        hardPuzzles[index2][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
+
+                    sum += hardPuzzles[index2][i, j]; //calculate new sums for the rows
+
+                }
+
+                hardPuzzles[index2][i, 5] = sum;
+            }
+
+            //Calculates new sums for the columns
+            for (int j = 0; j < 7; j++)
+            {
+                sum = 0;
+
+                for (int i = 0; i < 7; i++)
+                {
+                    sum += hardPuzzles[index2][i, j];
+                }
+                hardPuzzles[index2][5, j] = sum;
+            }
+
+            hardPuzzles[index2][7, 7] = 0;
+            for (int i = 0; i < 7; i++) //Get new diagonal sum
+                hardPuzzles[index2][7, 7] += hardPuzzles[index2][i, i];
+            switcher = false;
+            CreatePlayingField(hardPuzzles, index2, diffSetting);
+        }
+
         private void Generate_Puzzle(object sender, EventArgs e)
         {
-            int index = (int) puzzleNum.Value - 1;
+            index = (int) puzzleNum.Value - 1;
             
-            string diffSetting = puzzleDiff.SelectedItem.ToString();
+            diffSetting = puzzleDiff.SelectedItem.ToString();
 
             if (diffSetting == "Easy")
             {
@@ -507,7 +560,10 @@ namespace Chris_Parker_Assignment5
                     singleItem.BackColor = Color.White;
                 }
 
+                switcher = false;
                 CreatePlayingField(hardPuzzles, index, diffSetting);
+
+
             }
 
         }
@@ -548,7 +604,7 @@ namespace Chris_Parker_Assignment5
         {
             
             TextBox omega = sender as TextBox;
-
+            
             if (System.Text.RegularExpressions.Regex.IsMatch(omega.Text, "  ^ [1-9]"))
             {
                 omega.Text = "";
@@ -559,17 +615,23 @@ namespace Chris_Parker_Assignment5
                 omega.Text = "";
             }
             
-            if (omega.Text != "")
+            if (omega.Text != "" && diffSetting == "Easy")
             {
-              //  CalcNewEasySums(omega);   
+                CalcNewEasySums(omega, index);   
             }
 
-            
-            
-
-
-                
+            if (omega.Text != "" && diffSetting == "Medium")
+            {
+                CalcNewMedSums(omega, index);
             }
+            //MessageBox.Show(k.ToString());
+            if (omega.Text != "" && diffSetting == "Hard" )
+            {
+                CalcNewHardSums(omega, index);
+            }
+
+
+        }
 
         [DllImport("user32.dll")]
         static extern bool HideCaret(IntPtr hWnd);
