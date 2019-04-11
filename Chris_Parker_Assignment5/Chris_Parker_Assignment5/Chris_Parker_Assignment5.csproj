@@ -81,6 +81,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="directory.txt" />
+    <Content Include="e1.txt" />
+    <Content Include="e2.txt" />
+    <Content Include="e3.txt" />
+    <Content Include="h1.txt" />
+    <Content Include="h2.txt" />
+    <Content Include="h3.txt" />
+    <Content Include="m1.txt" />
+    <Content Include="m2.txt" />
+    <Content Include="m3.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
