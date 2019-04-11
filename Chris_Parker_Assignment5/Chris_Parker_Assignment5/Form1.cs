@@ -542,7 +542,7 @@ namespace Chris_Parker_Assignment5
 
                 }
 
-                hardPuzzles[index2][i, 5] = sum;
+                hardPuzzles[index2][i, 7] = sum;
             }
 
             //Calculates new sums for the columns
@@ -554,7 +554,7 @@ namespace Chris_Parker_Assignment5
                 {
                     sum += hardPuzzles[index2][i, j];
                 }
-                hardPuzzles[index2][5, j] = sum;
+                hardPuzzles[index2][7, j] = sum;
             }
 
             hardPuzzles[index2][7, 7] = 0;
