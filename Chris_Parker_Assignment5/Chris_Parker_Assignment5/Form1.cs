@@ -29,6 +29,7 @@ namespace Chris_Parker_Assignment5
         private static bool switcher;
         private static string diffSetting;
         private static int sum;
+        private bool hardPuzzleBuilt = false;
 
 
         public Form1()
@@ -440,7 +441,7 @@ namespace Chris_Parker_Assignment5
                         }
                     }
                 }
-                
+                hardPuzzleBuilt = true;
 
             }
 
@@ -609,8 +610,6 @@ namespace Chris_Parker_Assignment5
 
                 switcher = false;
                 CreatePlayingField(hardPuzzles, index, diffSetting);
-
-
             }
 
         }
@@ -682,7 +681,7 @@ namespace Chris_Parker_Assignment5
                 CalcNewMedSums(omega, index);
             }
             //MessageBox.Show(k.ToString());
-            if (omega.Text != "" && diffSetting == "Hard" )
+            if (omega.Text != "" && diffSetting == "Hard" && hardPuzzleBuilt )
             {
                 CalcNewHardSums(omega, index);
             }
