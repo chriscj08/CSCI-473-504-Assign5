@@ -457,7 +457,14 @@ namespace Chris_Parker_Assignment5
                 for (int j = 0; j < 3; j++)
                 {
                     if (easyMode[i, j].Name == omega.Name)
+                    {
                         easyPuzzles[index2][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
+                        //**CHECK FOR CORRECT VALUE HERE
+                        if (easyPuzzles[index2].IsItCorrect())//********** CHECK FOR CORRECT SOLUTION HERE*********/////
+                        {
+                            MessageBox.Show("YOU DID IT");
+                        }
+                    }
 
                     sum += easyPuzzles[index2][i, j]; //calculate new sums for the rows
 
@@ -495,8 +502,15 @@ namespace Chris_Parker_Assignment5
                 for (int j = 0; j < 5; j++)
                 {
                     if (medMode[i, j].Name == omega.Name)
+                    {
                         medPuzzles[index2][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
-
+                        //if (hardPuzzles[index].IsValueInSolution((int)Char.GetNumericValue(omega.Text[0]), i, j))
+                        //  MessageBox.Show("it's in there"); //***CHECK FOR CORRECT VALUE HERE
+                        if (easyPuzzles[index2].IsItCorrect())//********** CHECK FOR CORRECT SOLUTION HERE*********/////
+                        {
+                            MessageBox.Show("YOU DID IT");
+                        }
+                    }
                     sum += medPuzzles[index2][i, j]; //calculate new sums for the rows
 
                 }
@@ -518,7 +532,10 @@ namespace Chris_Parker_Assignment5
 
             medPuzzles[index2][5, 5] = 0;
             for (int i = 0; i < 5; i++) //Get new diagonal sum
+            {
                 medPuzzles[index2][5, 5] += medPuzzles[index2][i, i];
+                
+            }
 
             CreatePlayingField(medPuzzles, index2, diffSetting);
         }
@@ -536,7 +553,13 @@ namespace Chris_Parker_Assignment5
                     if (hardMode[i, j].Name == omega.Name)
                     {
                         hardPuzzles[index2][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
-
+                       // if (hardPuzzles[index].IsValueInSolution((int)Char.GetNumericValue(omega.Text[0]), i, j))
+                          //  MessageBox.Show("it's in there");
+                        if (hardPuzzles[index2].IsItCorrect())
+                        {
+                            MessageBox.Show("YOU DID IT");
+                        }
+                        
                     }
                     sum += hardPuzzles[index2][i, j]; //calculate new sums for the rows
 
@@ -687,6 +710,7 @@ namespace Chris_Parker_Assignment5
             //MessageBox.Show(k.ToString());
             if (omega.Text != "" && diffSetting == "Hard")
             {
+                
                 CalcNewHardSums(omega, index);
                
             }
@@ -730,7 +754,7 @@ namespace Chris_Parker_Assignment5
      * 
      * 
      */
-    public class Puzzle //: IComparable
+    public class Puzzle 
     {
         //Data members. Not sure yet if we'll need to keep all of these as we progress through the assignment.
         private readonly int[,] puzzleInitial; //The initial state of the puzzle
@@ -777,55 +801,60 @@ namespace Chris_Parker_Assignment5
             set { puzzleInProgress[index, index2] = value; }
         }
 
-        public override string ToString()
+        //This method will tell us if the user won or not
+        public bool IsItCorrect()
         {
-            string theString = String.Empty;
-
-            if (this.puzzleDifficulty == (Difficulty)0)
+            if (this.puzzleDifficulty == 0)
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    for (int j = 0; j < 3; j++)
+                    {
+                        if (puzzleInProgress[i, j] != puzzleSolution[i, j])
+                            return false;
+                    }
+                }
+            }
+            else if (this.puzzleDifficulty == (Difficulty)1)
+            {
                 for (int i = 0; i < 5; i++)
                 {
                     for (int j = 0; j < 5; j++)
                     {
-                        theString += String.Format("{0,5}", puzzleInitial[i, j]);
+                        if (puzzleInProgress[i, j] != puzzleSolution[i, j])
+                            return false;
                     }
-
-                    theString += "\n";
                 }
-            if (this.puzzleDifficulty == (Difficulty)1)
+            }
+            else if (this.puzzleDifficulty == (Difficulty)2)
+            {
                 for (int i = 0; i < 7; i++)
                 {
                     for (int j = 0; j < 7; j++)
                     {
-                        theString += String.Format("{0,5}", puzzleSolution[i, j]);
+                        if (puzzleInProgress[i, j] != puzzleSolution[i, j])
+                            return false;
                     }
-
-                    theString += "\n";
                 }
-            if (this.puzzleDifficulty == (Difficulty)2)
-                for (int i = 0; i < 9; i++)
-                {
-                    for (int j = 0; j < 9; j++)
-                    {
-                        theString += String.Format("{0,5}", puzzleSolution[i, j]);
-                    }
+            }
 
-                    theString += "\n";
-                }
-            return theString;
+            return true;
         }
-        /*****Needs work still*****Need to determine what order to sort the puzzle objects...
-        //Our CompareTo method which allows us to sort our Puzzle objects
-        public int CompareTo(Object puzzle)
+
+        //This will check if an aswer entered by the user is in the puzzle or not
+        //You must provide a row and column number so the function knows where the value
+        //should be.
+        public bool IsValueInSolution(int value, int i, int j)
         {
-            if (puzzle == null)
-            { return 1; }
-
-            Puzzle comparer = puzzle as Puzzle;
-
-            int result = 
-
+            if (value == puzzleSolution[i, j])
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
-        */
 
     } //End of Puzzle 
 }
