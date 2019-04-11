@@ -54,7 +54,7 @@ namespace Chris_Parker_Assignment5
         //Still a work in progress 
         public void ReadPuzzles()
         {
-            using (StreamReader inFile = new StreamReader("C:/Users/Chrips/Desktop/Test/directory.txt"))
+            using (StreamReader inFile = new StreamReader("directory.txt"))
             {
                 string fileName = inFile.ReadLine(); //Read the first puzzle file
 
@@ -569,7 +569,7 @@ namespace Chris_Parker_Assignment5
 
 
                 
-            }
+         }
 
         [DllImport("user32.dll")]
         static extern bool HideCaret(IntPtr hWnd);
