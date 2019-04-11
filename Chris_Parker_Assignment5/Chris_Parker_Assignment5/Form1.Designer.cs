@@ -1102,6 +1102,7 @@
             this.checkButton.TabIndex = 69;
             this.checkButton.Text = "Check";
             this.checkButton.UseVisualStyleBackColor = true;
+            this.checkButton.Click += new System.EventHandler(this.TestClick);
             // 
             // resetButton
             // 

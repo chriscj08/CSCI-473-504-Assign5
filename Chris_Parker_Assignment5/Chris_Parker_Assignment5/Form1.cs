@@ -24,6 +24,7 @@ namespace Chris_Parker_Assignment5
         private static TextBox[,] hardMode;
         private int timerValue = 0;
         private int k = 0;
+        private static int sum;
 
 
         public Form1()
@@ -359,6 +360,7 @@ namespace Chris_Parker_Assignment5
                 for(int j = 0; j < 5; j++)
                 {
                     easyMode[i, j].Text = puzzles[0][i, j].ToString();
+                    MessageBox.Show(easyMode[i, j].Name + ": " + puzzles[0][i, j].ToString());
                 }
             }
              
@@ -441,7 +443,7 @@ namespace Chris_Parker_Assignment5
                 e.Handled = true;
             }
         }
-
+        
         private void fieldTextChanged(object sender, EventArgs e)
         {
             
@@ -459,24 +461,26 @@ namespace Chris_Parker_Assignment5
             {
                 omega.Text = "";
             }
-
+            
             if (omega.Text != "")
             {
-                int sum = 0;
+                sum = 0;
 
                 //Change the puzzle in progress array based on user input
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < 3; i++)
                 {
-                    for (int j = 0; j < 5; j++)
+                    for (int j = 0; j < 3; j++)
                     {
                         if (easyMode[i, j].Name == omega.Name)
-                            puzzles[0][i, j] = Convert.ToInt32(omega.Text);
+                            puzzles[0][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
+                        
                         sum += puzzles[0][i, j]; //calculate new sums for the rows
+                       // MessageBox.Show(puzzles[0].ToString());
                     }
-                    puzzles[0][i, 3] = sum;
-                    easyMode[i, 3].Text = sum.ToString();
+                    
+                    puzzles[0][i, 3] = sum;                  
                 }
-
+                /*
                 //Calculates new sums for the columns
                 for (int j = 0; j < 3; j++)
                 {
@@ -491,13 +495,14 @@ namespace Chris_Parker_Assignment5
 
                 for (int i = 0; i < 3; i++) //Get new diagonal sum
                     puzzles[0][3, 3] += puzzles[0][i, i];
-            }
+                    */
+          }
+
+            
+            
 
 
-
-
-
-                // MessageBox.Show(puzzles[0][0, 0].ToString());
+                
             }
 
         [DllImport("user32.dll")]
@@ -519,6 +524,11 @@ namespace Chris_Parker_Assignment5
         {
             TextBox omega = sender as TextBox;
             omega.BackColor = Color.White;
+        }
+
+        private void TestClick(object sender, EventArgs e)
+        {
+            CreatePlayingField();
         }
     } //End of Form1
 
@@ -590,7 +600,7 @@ namespace Chris_Parker_Assignment5
                 {
                     for (int j = 0; j < 5; j++)
                     {
-                        theString += String.Format("{0,5}", puzzleSolution[i, j]);
+                        theString += String.Format("{0,5}", puzzleInitial[i, j]);
                     }
 
                     theString += "\n";
