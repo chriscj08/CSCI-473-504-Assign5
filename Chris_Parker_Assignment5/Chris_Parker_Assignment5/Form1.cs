@@ -21,15 +21,18 @@ namespace Chris_Parker_Assignment5
         private static List<Puzzle> easyPuzzles;
         private static List<Puzzle> medPuzzles;
         private static List<Puzzle> hardPuzzles;
+        private static bool easyDone;
+        private static bool medDone;
+        private static bool hardDone;
         private static TextBox[,] easyMode;
         private static TextBox[,] medMode;
         private static TextBox[,] hardMode;
-        private int timerValue = 0;
-        private static int index;
+        private static int index;        
+        private Stopwatch stopwatch;
+        private TimeSpan elapsedTime = new TimeSpan();
         private static bool switcher;
         private static string diffSetting;
-        private static int sum;
-        private bool hardPuzzleBuilt = false;
+        private static int sum;        
 
 
         public Form1()
@@ -41,13 +44,17 @@ namespace Chris_Parker_Assignment5
             easyMode = new TextBox[5, 5];
             medMode = new TextBox[7, 7];
             hardMode = new TextBox[9, 9];
-            switcher = false;
-            index = 0;            
+            switcher = false;            
+            index = 0;
+            stopwatch = new Stopwatch();   
             diffSetting = "Easy";
             puzzleDiff.DataSource = Enum.GetValues(typeof(Difficulty));            
             BuildEasyMode();
             BuildMedMode();
-            BuildHardMode();                        
+            BuildHardMode();
+            easyDone = false;
+            medDone = false;
+            hardDone = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -370,6 +377,7 @@ namespace Chris_Parker_Assignment5
             {
                 singleItem.Enabled = false;
                 singleItem.ForeColor = Color.White;
+                singleItem.Text = "";
             }
             MsgBox.Text = "The values are hidden until you start the timer";
         }
@@ -440,8 +448,7 @@ namespace Chris_Parker_Assignment5
                             hardMode[i, j].Text = puzzles[index2][i, j].ToString();
                         }
                     }
-                }
-                hardPuzzleBuilt = true;
+                }              
 
             }
 
@@ -459,10 +466,25 @@ namespace Chris_Parker_Assignment5
                     if (easyMode[i, j].Name == omega.Name)
                     {
                         easyPuzzles[index2][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
-                        //**CHECK FOR CORRECT VALUE HERE
+                        if (easyPuzzles[index].IsValueInSolution((int)Char.GetNumericValue(omega.Text[0]), i, j))
+                        {
+                            omega.BackColor = Color.Green;
+                            omega.Enabled = false;
+                        }
+                        else
+                        {
+                            omega.BackColor = Color.Red;
+                        }
                         if (easyPuzzles[index2].IsItCorrect())//********** CHECK FOR CORRECT SOLUTION HERE*********/////
                         {
-                            MessageBox.Show("YOU DID IT");
+                            easyDone = true;
+                            MsgBox.Clear();
+                            MsgBox.Text = "YOU DID IT\r\n";                            
+                            elapsedTime = stopwatch.Elapsed;
+                            timer1.Stop();
+                            stopwatch.Stop();
+                            //easyTimes.Add(elapsedTime);
+                            MsgBox.Text += String.Format("{0:00}:{1:00}", elapsedTime.Minutes, elapsedTime.Seconds);
                         }
                     }
 
@@ -502,13 +524,20 @@ namespace Chris_Parker_Assignment5
                 for (int j = 0; j < 5; j++)
                 {
                     if (medMode[i, j].Name == omega.Name)
-                    {
+                    {                       
                         medPuzzles[index2][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
-                        //if (hardPuzzles[index].IsValueInSolution((int)Char.GetNumericValue(omega.Text[0]), i, j))
-                        //  MessageBox.Show("it's in there"); //***CHECK FOR CORRECT VALUE HERE
-                        if (easyPuzzles[index2].IsItCorrect())//********** CHECK FOR CORRECT SOLUTION HERE*********/////
+                        if (medPuzzles[index].IsValueInSolution((int)Char.GetNumericValue(omega.Text[0]), i, j))
                         {
-                            MessageBox.Show("YOU DID IT");
+                            omega.BackColor = Color.Green;
+                            omega.Enabled = false;
+                        }
+                        else
+                        {
+                            omega.BackColor = Color.Red;
+                        }
+                        if (medPuzzles[index2].IsItCorrect())//********** CHECK FOR CORRECT SOLUTION HERE*********/////
+                        {
+                            medDone = true;
                         }
                     }
                     sum += medPuzzles[index2][i, j]; //calculate new sums for the rows
@@ -542,7 +571,7 @@ namespace Chris_Parker_Assignment5
 
         public void CalcNewHardSums(TextBox omega, int index2)
         {
-            
+           
             //Change the puzzle in progress array based on user input
             for (int i = 0; i < 7; i++)
             {
@@ -553,13 +582,21 @@ namespace Chris_Parker_Assignment5
                     if (hardMode[i, j].Name == omega.Name)
                     {
                         hardPuzzles[index2][i, j] = (int)Char.GetNumericValue(omega.Text[0]);
-                       // if (hardPuzzles[index].IsValueInSolution((int)Char.GetNumericValue(omega.Text[0]), i, j))
-                          //  MessageBox.Show("it's in there");
-                        if (hardPuzzles[index2].IsItCorrect())
+                        if (hardPuzzles[index].IsValueInSolution((int)Char.GetNumericValue(omega.Text[0]), i, j))
                         {
-                            MessageBox.Show("YOU DID IT");
+                            omega.BackColor = Color.Green;
+                            omega.Enabled = false;
+                        }
+                        else
+                        {
+                            omega.BackColor = Color.Red;
                         }
                         
+                        if (hardPuzzles[index2].IsItCorrect())//********** CHECK FOR CORRECT SOLUTION HERE*********/////
+                        {
+                            hardDone = true;
+
+                        }
                     }
                     sum += hardPuzzles[index2][i, j]; //calculate new sums for the rows
 
@@ -586,6 +623,8 @@ namespace Chris_Parker_Assignment5
             
             
             CreatePlayingField(hardPuzzles, index2, diffSetting);
+            
+
         }
 
         private void Generate_Puzzle(object sender, EventArgs e)
@@ -647,6 +686,7 @@ namespace Chris_Parker_Assignment5
             if (timerStartStop.Text == "Start")
             {
                 timer1.Start();
+                stopwatch.Start();
                 foreach (TextBox singleItem in hardMode)
                 {
                     singleItem.ForeColor = Color.Black;
@@ -658,6 +698,7 @@ namespace Chris_Parker_Assignment5
             else if (timerStartStop.Text == "Stop")
             {
                 timer1.Stop();
+                stopwatch.Stop();
                 foreach (TextBox singleItem in hardMode)
                 {
                     singleItem.ForeColor = Color.White;
@@ -669,8 +710,9 @@ namespace Chris_Parker_Assignment5
 
         private void timerTick(object sender, EventArgs e)
         {
-            timerValue++;
-            timerBox.Text = timerValue.ToString();
+            elapsedTime = stopwatch.Elapsed;
+            timerBox.Text = String.Format("{0:00}:{1:00}", elapsedTime.Minutes, elapsedTime.Seconds);
+            
         }
 
         private void fieldKeyPress(object sender, KeyPressEventArgs e)
@@ -727,19 +769,125 @@ namespace Chris_Parker_Assignment5
             omega.BackColor = Color.Cyan;
             HideCaret(this.Handle);
         }
-
-
         
-
-
         //Method purpose of changing the backColor the text box that nolonger has focus
         private void lostFocus(object sender, EventArgs e)
         {
             TextBox omega = sender as TextBox;
-            omega.BackColor = Color.White;
+            if (omega.BackColor != Color.Green)
+            {
+                omega.BackColor = Color.White;
+            }
         }
 
-   
+        private void resetBoard(object sender, EventArgs e)
+        {
+            timer1.Stop();            
+            stopwatch.Reset();            
+            timerStartStop.Text = "Start";
+            timerBox.Text = "00:00:000";
+            MsgBox.Text = "Board reset\r\n";
+            MsgBox.Text += "The values are hidden until you start the timer";
+            diffSetting = puzzleDiff.SelectedItem.ToString();
+            index = (int)puzzleNum.Value - 1;
+            foreach (TextBox singleItem in hardMode)
+            {
+                singleItem.ForeColor = Color.White;
+            }
+            if (diffSetting == "Easy")
+            {
+                easyPuzzles[index].resetPuzzle();
+                CreatePlayingField(easyPuzzles, index, diffSetting);
+            }
+            else if (diffSetting == "Medium")
+            {
+                medPuzzles[index].resetPuzzle();
+                CreatePlayingField(medPuzzles, index, diffSetting);
+            }
+            else
+            {
+                hardPuzzles[index].resetPuzzle();
+                CreatePlayingField(hardPuzzles, index, diffSetting);
+            }
+
+        }  
+
+        private void checkSolutionButton(object sender, EventArgs e)
+        {
+            
+            MsgBox.Clear();
+            MsgBox.Text = "Checking solution\r\n";
+
+            diffSetting = puzzleDiff.SelectedItem.ToString();
+
+            if (easyDone)
+            {
+                MsgBox.Clear();
+                MsgBox.Text = "YOU DID IT\r\n";
+                elapsedTime = stopwatch.Elapsed;
+                timer1.Stop();
+                stopwatch.Stop();
+                //easyTimes.Add(elapsedTime);
+                MsgBox.Text += String.Format("{0:00}:{1:00}", elapsedTime.Minutes, elapsedTime.Seconds);
+            }
+            else if (medDone)
+            {
+                MsgBox.Clear();
+                MsgBox.Text = "YOU DID IT\r\n";
+                elapsedTime = stopwatch.Elapsed;
+                timer1.Stop();
+                stopwatch.Stop();
+                //medTimes.Add(elapsedTime);
+                MsgBox.Text += String.Format("{0:00}:{1:00}", elapsedTime.Minutes, elapsedTime.Seconds);
+
+            }
+            else if (hardDone)
+            {
+                MsgBox.Clear();
+                MsgBox.Text = "YOU DID IT\r\n";
+                elapsedTime = stopwatch.Elapsed;
+                timer1.Stop();
+                stopwatch.Stop();
+                //hardTimes.Add(elapsedTime);
+                MsgBox.Text += String.Format("{0:00}:{1:00}", elapsedTime.Minutes, elapsedTime.Seconds);
+            }
+            else MsgBox.Text += "Solution is not correct. Keep trying";
+
+        }
+
+        private void saveProgress(object sender, EventArgs e)
+        {
+            MsgBox.Clear();
+            MsgBox.Text = "Progress Saved";
+        }
+
+        //calls get cheats
+        private void cheatButtonClick(object sender, EventArgs e)
+        {
+            MsgBox.Clear();
+            timer1.Stop();
+            stopwatch.Reset();
+            timerStartStop.Text = "Start";
+            timerBox.Text = "00:00:000";
+            MsgBox.Text = "Cheating Enabled: Your time is now voided";
+            diffSetting = puzzleDiff.SelectedItem.ToString();
+            index = (int)puzzleNum.Value - 1;
+            if (diffSetting == "Easy")
+            {
+                easyPuzzles[index].getCheats();
+                CreatePlayingField(easyPuzzles, index, diffSetting);
+            }
+            else if (diffSetting == "Medium")
+            {
+                medPuzzles[index].getCheats();
+                CreatePlayingField(medPuzzles, index, diffSetting);
+            }
+            else
+            {
+                hardPuzzles[index].getCheats();
+                CreatePlayingField(hardPuzzles, index, diffSetting);
+            }
+        }
     } //End of Form1
 
     /* Class: Puzzle
@@ -853,6 +1001,115 @@ namespace Chris_Parker_Assignment5
             else
             {
                 return false;
+            }
+        }
+
+        //Resets the playing field
+        //If the inprogess puzzle doesn't match solution. It gets set to zero
+        public void resetPuzzle()
+        {
+            if (this.puzzleDifficulty == 0)
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    for (int j = 0; j < 3; j++)
+                    {
+                        if(puzzleInProgress[i, j] != puzzleSolution[i, j])
+                             puzzleInProgress[i, j] = 0;
+                    }
+                }
+            }
+            else if (this.puzzleDifficulty == (Difficulty)1)
+            {
+                
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 0; j < 5; j++)
+                    {
+                        if (puzzleInProgress[i, j] != puzzleSolution[i, j])
+                            puzzleInProgress[i, j] = 0;
+                    }
+                }
+            }
+            else if (this.puzzleDifficulty == (Difficulty)2)
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    for (int j = 0; j < 7; j++)
+                    {
+                        if (puzzleInProgress[i, j] != puzzleSolution[i, j])
+                            puzzleInProgress[i, j] = 0;
+                    }
+                }
+            }
+        }
+
+        //gives the user cheats
+        //if the inprogress != solution. It fills it in for them
+        //does this a fixed number of times
+        public void getCheats()
+        {
+            int valuesGiven = 0;
+            int max = 0;
+            if (this.puzzleDifficulty == 0)
+            {
+                max = 3;
+                for (int i = 0; i < 3; i++)
+                {
+                    for (int j = 0; j < 3; j++)
+                    {
+                        if(valuesGiven<max )
+                        {
+                            if(puzzleInProgress[i, j] != puzzleSolution[i, j])
+                            {
+                                puzzleInProgress[i, j] = puzzleSolution[i, j];
+                                valuesGiven++;
+                            }
+                            
+                        }
+                    }
+                }
+               
+                
+            }
+            else if (this.puzzleDifficulty == (Difficulty)1)
+            {
+                max = 6;
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 0; j < 5; j++)
+                    {
+                        if (valuesGiven < max)
+                        {
+                            if (puzzleInProgress[i, j] != puzzleSolution[i, j])
+                            {
+                                puzzleInProgress[i, j] = puzzleSolution[i, j];
+                                valuesGiven++;
+                            }
+
+                        }
+                    }
+                }
+
+            }
+            else if (this.puzzleDifficulty == (Difficulty)2)
+            {
+                max = 12;
+                for (int i = 0; i < 7; i++)
+                {
+                    for (int j = 0; j < 7; j++)
+                    {
+                        if (valuesGiven < max)
+                        {
+                            if (puzzleInProgress[i, j] != puzzleSolution[i, j])
+                            {
+                                puzzleInProgress[i, j] = puzzleSolution[i, j];
+                                valuesGiven++;
+                            }
+
+                        }
+                    }
+                }
             }
         }
 
